@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.hero {
+  /* background-image: url('/src/assets/hero.webp'); */
+  background-image: linear-gradient(
+      to right,
+      rgba(18, 6, 240, 0.5),
+      rgba(12, 12, 12, 0.5)
+    ),
+    url('/src/assets/hero.webp');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.no-hero {
+  background-color: rgb(73, 71, 73);
+  color: rgb(244, 230, 232);
+}
+
+.footer {
+  background-color: rgb(8, 7, 8);
+  color: rgb(84, 82, 82);
+  text-align: center;
+  padding: 10px;
+}
+
+.video-responsive {
+  display: flex;
+  justify-content: center;
+  /* overflow: hidden;
+  position: relative; */
+  height: 527px;
+  width: auto;
+}
+
+.video-responsive iframe {
+  height: 90%;
+  max-width: 100%;
+}
