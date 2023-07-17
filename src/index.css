@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  color: #e4d1f0;
 }
 
 .hero {
@@ -21,16 +22,12 @@ body {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  /* color: rgb(225, 41, 41); */
-  color: #c5afd3;
 }
 
 .textgradient {
   background-image: linear-gradient(
     to right,
-    /* rgb(245, 6, 6),
-    rgb(137, 18, 82),
-    rgb(173, 239, 7) */ #e0dbef,
+    #e0dbef,
     #6f277c,
     rgb(228, 40, 40)
   );
@@ -47,31 +44,24 @@ body {
 
 .section2 {
   background-image: linear-gradient(to bottom, #04030b, #0a0a0b, #343336);
-  color: #c5afd3;
 }
 
 .section3 {
   background-image: linear-gradient(to top, #04030b, #0a0a0b, #343336);
-  /* color: #8a898e; */
-  color: #c5afd3;
 }
 
 .section4 {
   background-image: linear-gradient(to bottom, #04030b, #3c1c41);
-  color: #47464a;
+  color: #e4d1f0;
 }
 
 .section5 {
   background-image: linear-gradient(to bottom, #3c1c41, #04030bf9, #010008);
-  /* color: #47464a; */
-  color: #c5afd3;
 }
 
 .video-responsive {
   display: flex;
   justify-content: center;
-  /* overflow: hidden;
-  position: relative; */
   height: 527px;
   width: auto;
 }
