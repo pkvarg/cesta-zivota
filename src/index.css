@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap');
 
 body {
   overflow-x: hidden;
@@ -16,12 +16,13 @@ body {
       rgba(5, 0, 15, 0.491),
       rgb(12, 12, 12)
     ),
-    url('/src/assets/hero2.webp');
+    url('/hero2.webp');
   height: 100vh;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(225, 41, 41);
+  /* color: rgb(225, 41, 41); */
+  color: #c5afd3;
 }
 
 .textgradient {
@@ -46,13 +47,13 @@ body {
 
 .section2 {
   background-image: linear-gradient(to bottom, #04030b, #0a0a0b, #343336);
-  color: #47464a;
+  color: #c5afd3;
 }
 
 .section3 {
   background-image: linear-gradient(to top, #04030b, #0a0a0b, #343336);
   /* color: #8a898e; */
-  color: rgb(225, 41, 41);
+  color: #c5afd3;
 }
 
 .section4 {
@@ -63,7 +64,7 @@ body {
 .section5 {
   background-image: linear-gradient(to bottom, #3c1c41, #04030bf9, #010008);
   /* color: #47464a; */
-  color: rgb(225, 41, 41);
+  color: #c5afd3;
 }
 
 .video-responsive {
