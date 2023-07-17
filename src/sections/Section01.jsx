@@ -2,13 +2,13 @@ import React from 'react'
 
 const Section01 = () => {
   return (
-    <div className='hero text-[#ffffff] px-[5%]'>
+    <div className='hero  px-[5%]'>
       <div className='text-[45px] text-center pt-[5%]'>
-        <h1>
-          Uver pravde, buď tak oslobodený od hriechu a získaj večný život!
+        <h1 className='textgradient'>
+          Uver pravde, buď oslobodený od hriechu a získaj večný život!
         </h1>
       </div>
-      <div className='text-[25px] text-justify mt-8'>
+      <div className='text-[27.5px] text-justify mt-8'>
         <p>
           Ak ešte neveríš v Boha, Jeho Syna a Ducha Svätého, prosím uvedom si,
           že svojou neverou nespôsobíš zánik Jeho existencie. Pýcha tvojho ega
@@ -20,7 +20,7 @@ const Section01 = () => {
           Preto daj sebe samému šancu a čítaj ďalej.
         </p>
       </div>
-      <div className='text-[25px] text-justify mt-6'>
+      <div className='text-[27.5px] text-justify mt-6'>
         <p>
           Boh existuje! Stvorenie samé svedčí o Ňom.
           <span className='italic'>
@@ -31,7 +31,7 @@ const Section01 = () => {
           </span>
         </p>
       </div>
-      <div className='text-[25px] text-justify mt-6'>
+      <div className='text-[27.5px] text-justify mt-6'>
         <p>
           Boh je láska a tá ho motivovala stvoriť ľudstvo, takže aj teba, aby
           mal s tebou osobný vzťah. Avšak pádom človeka v raji dedíme hriešnu
@@ -43,7 +43,7 @@ const Section01 = () => {
           </span>
         </p>
       </div>
-      <div className='text-[25px] text-justify mt-6'>
+      <div className='text-[27.5px] text-justify mt-6'>
         <p>
           Boh ťa tak veľmi miluje, že svojho Syna nechal obetovať za tvoje
           hriechy.{' '}

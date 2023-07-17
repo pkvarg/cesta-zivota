@@ -3,8 +3,8 @@ import Footer from '../components/Footer'
 
 const Section05 = () => {
   return (
-    <>
-      <div className='text-[25px] text-justify pt-8 mx-[5%]'>
+    <div className='section5 text-[27.5px] text-justify pt-[80px]'>
+      <div className='mx-[5%]'>
         <p>
           Začni čítať{' '}
           <a className='underline' href='https://biblia.sk' target='_blank'>
@@ -14,9 +14,7 @@ const Section05 = () => {
           spoločenstvo, kde oslavujú Boha Otca, Ježiša a Svätého Ducha; nie
           Máriu ani Jehovu ani nikoho iného.
         </p>
-      </div>
-      <div className='text-[25px] text-justify pt-8 mx-[5%]'>
-        <div className='flex gap-2'>
+        <div className='flex gap-2 pt-4'>
           <p> Ak chceš viac, skús napríklad</p>
           <a className='underline' href='https://hladamboha.sk' target='_blank'>
             hladamboha.sk,
@@ -30,17 +28,18 @@ const Section05 = () => {
           </a>
           <p>alebo</p>
           <a className='underline' href='https://radio7.sk' target='_blank'>
-            Rádio 7
+            Rádio 7.
           </a>
         </div>
-        <p className='pt-8'>
+        <p className='pt-4 text-[27.5px]'>
           Ja ostávam v anonymite, pretože nie je podstatné ma poznať. Podstatný
           je obsah. Prajem ti, aby si uveril pravde, ktorou je Božie Slovo a
           získal tak späť postavenie, ktoré ti patrí.
         </p>
       </div>
+
       <Footer />
-    </>
+    </div>
   )
 }
 

@@ -2,35 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap');
+
 body {
   overflow-x: hidden;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hero {
-  /* background-image: url('/src/assets/hero.webp'); */
   background-image: linear-gradient(
       to right,
-      rgba(18, 6, 240, 0.5),
-      rgba(12, 12, 12, 0.5)
+      rgba(5, 0, 15, 0.491),
+      rgb(12, 12, 12)
     ),
-    url('/src/assets/hero.webp');
+    url('/src/assets/hero2.jpg');
   height: 100vh;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  color: rgb(225, 41, 41);
 }
 
-.no-hero {
-  background-color: rgb(73, 71, 73);
-  color: rgb(244, 230, 232);
-}
+.textgradient {
+  background-image: linear-gradient(
+    to right,
+    rgb(245, 6, 6),
+    rgb(137, 18, 82),
+    rgb(173, 239, 7)
+  );
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari support */
 
-.footer {
-  background-color: rgb(8, 7, 8);
-  color: rgb(84, 82, 82);
+  /* Set the text color to transparent to allow the gradient to show through */
+  color: transparent;
+
+  /* Optional styles to center the text and make it stand out more */
   text-align: center;
   padding: 10px;
+}
+
+.section2 {
+  background-image: linear-gradient(to bottom, #04030b, #0a0a0b, #343336);
+  color: #47464a;
+}
+
+.section3 {
+  background-image: linear-gradient(to top, #04030b, #0a0a0b, #343336);
+  /* color: #8a898e; */
+  color: rgb(225, 41, 41);
+}
+
+.section4 {
+  background-image: linear-gradient(to bottom, #04030b, #3c1c41);
+  color: #47464a;
+}
+
+.section5 {
+  background-image: linear-gradient(to bottom, #3c1c41, #04030bf9, #010008);
+  /* color: #47464a; */
+  color: rgb(225, 41, 41);
 }
 
 .video-responsive {

@@ -38,7 +38,7 @@ const Slider = () => {
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
-          className='mx-auto w-[75%]'
+          className='mx-auto w-[65%]'
         />
       </div>
     </div>
