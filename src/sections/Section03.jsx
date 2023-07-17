@@ -9,19 +9,25 @@ const Section03 = () => {
           odsúdený.{' '}
           <span className='italic'>
             Kto však neposlúcha Syna, neuvidí život, ale hnev Boží zostáva na
-            ňom. Ján 3:36. Kto neverí, už je odsúdený, pretože neuveril v meno
-            jednorodeného Syna Božieho. Ján 3:18.
-          </span>
-          Preto daj sebe samému šancu a čítaj ďalej.
+            ňom.
+          </span>{' '}
+          <span className='text-[17.5px]'>Ján 3:36</span>{' '}
+          <span>
+            Kto neverí, už je odsúdený, pretože neuveril v meno jednorodeného
+            Syna Božieho.
+          </span>{' '}
+          <span className='text-[17.5px]'>Ján 3:18</span> Preto daj sebe samému
+          šancu a čítaj ďalej.
         </p>
       </div>
       <div className='text-[27.5px] text-justify mt-6'>
         <p>
           Ak ale v Neho uveríš, že bol ukrižovaný za tvoje hriechy a na tretí
-          deň vstal z mŕtvych a budeš Ho nasledovať, budeš zachránený.
+          deň vstal z mŕtvych a budeš Ho nasledovať, budeš zachránený.{' '}
           <span className='italic'>
-            Kto verí v Syna, má večný život. Ján 3:36. Kto verí v Neho, nebude
-            súdený. Ján 3:18.
+            Kto verí v Syna, má večný život.{' '}
+            <span className='text-[17.5px]'>Ján 3:36</span> Kto verí v Neho,
+            nebude súdený. <span className='text-[17.5px]'>Ján 3:18</span>
           </span>
         </p>
       </div>
@@ -32,8 +38,9 @@ const Section03 = () => {
           <span className='italic'>
             Povedz im: Akože žijem - znie výrok Hospodina, Pána - nemám záľubu v
             smrti bezbožného, ale v tom, že sa bezbožný odvráti od svojho
-            spôsobu života a bude žiť. Ezechiel 33:11.
+            spôsobu života a bude žiť.{' '}
           </span>
+          <span className='text-[17.5px] italic'> Ezechiel 33:11</span>
         </p>
       </div>
       <div className='text-[27.5px] text-justify mt-6'>

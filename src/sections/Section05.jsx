@@ -14,8 +14,8 @@ const Section05 = () => {
           spoločenstvo, kde oslavujú Boha Otca, Ježiša a Svätého Ducha; nie
           Máriu ani Jehovu ani nikoho iného.
         </p>
-        <div className='flex gap-2 pt-4'>
-          <p> Ak chceš viac, skús napríklad</p>
+        <div className='flex flex-col lg:flex-row gap-2 pt-4'>
+          <p> Ak chceš viac, skús napríklad:</p>
           <a className='underline' href='https://hladamboha.sk' target='_blank'>
             hladamboha.sk,
           </a>

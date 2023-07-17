@@ -25,20 +25,23 @@ const Slider = () => {
 
   return (
     <div className='relative'>
-      <div className='flex'>
-        <button onClick={prevImage} className='text-[55px]'>
+      <div className='flex justify-center'>
+        <button
+          onClick={prevImage}
+          className='text-[55px] absolute top-1/2 transform -translate-y-1/2 -left-12 lg:left-0'
+        >
           &lt;
         </button>
         <button
           onClick={nextImage}
-          className='absolute top-1/2 transform -translate-y-1/2 right-4 text-[55px]'
+          className='absolute top-1/2 transform -translate-y-1/2 -right-12 lg:right-4 text-[55px]'
         >
           &gt;
         </button>
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
-          className='mx-auto w-[65%]'
+          className='mx-auto w-[100%] lg:w-[65%]'
         />
       </div>
     </div>

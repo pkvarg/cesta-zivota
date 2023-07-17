@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  overflow-x: hidden;
+}
+
 body {
   overflow-x: hidden;
   box-sizing: border-box;
@@ -36,6 +40,7 @@ body {
 
   /* Set the text color to transparent to allow the gradient to show through */
   color: transparent;
+  font-weight: 600;
 
   /* Optional styles to center the text and make it stand out more */
   text-align: center;
@@ -69,4 +74,27 @@ body {
 .video-responsive iframe {
   height: 90%;
   max-width: 100%;
+}
+
+/* Tablets and smaller*/
+
+@media (max-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+      to bottom,
+      rgb(4, 0, 12),
+      rgb(12, 12, 12)
+    );
+    height: max-content;
+  }
+
+  .textgradient {
+    background-image: linear-gradient(
+      to bottom,
+      #e0dbef,
+      #6f277c,
+      rgb(228, 40, 40)
+    );
+  }
+  /* Your styles for tablets and smaller devices go here */
 }
