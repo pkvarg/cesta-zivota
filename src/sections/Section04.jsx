@@ -10,7 +10,7 @@ const Section04 = () => {
       <div className='mx-[25px] p-[50px] flex items-center'>
         <img
           className='w-[25%] mr-[35px]'
-          src='/src/assets/Img01.JPG'
+          src='/src/assets/Img01.webp'
           alt='book title'
         />
         <Slider />

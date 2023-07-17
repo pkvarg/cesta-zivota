@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
 const Slider = () => {
-  const image2 = '/src/assets/Img02.JPG'
+  const image2 = '/src/assets/Img02.webp'
 
-  const image3 = '/src/assets/Img03.JPG'
-  const image4 = '/src/assets/Img04.JPG'
-  const image5 = '/src/assets/Img05.JPG'
+  const image3 = '/src/assets/Img03.webp'
+  const image4 = '/src/assets/Img04.webp'
+  const image5 = '/src/assets/Img05.webp'
 
   const images = [image2, image3, image4, image5]
 

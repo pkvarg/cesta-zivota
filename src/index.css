@@ -16,7 +16,7 @@ body {
       rgba(5, 0, 15, 0.491),
       rgb(12, 12, 12)
     ),
-    url('/src/assets/hero2.jpg');
+    url('/src/assets/hero2.webp');
   height: 100vh;
   width: 100%;
   background-size: cover;
