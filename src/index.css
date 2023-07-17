@@ -27,9 +27,11 @@ body {
 .textgradient {
   background-image: linear-gradient(
     to right,
-    rgb(245, 6, 6),
+    /* rgb(245, 6, 6),
     rgb(137, 18, 82),
-    rgb(173, 239, 7)
+    rgb(173, 239, 7) */ #e0dbef,
+    #6f277c,
+    rgb(228, 40, 40)
   );
   background-clip: text;
   -webkit-background-clip: text; /* For Safari support */
