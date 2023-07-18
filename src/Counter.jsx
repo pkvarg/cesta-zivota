@@ -21,7 +21,7 @@ const Counter = () => {
     <div className='section5 h-[100vh] text-[25px] p-10 flex flex-col gap-4'>
       <button
         onClick={getStats}
-        className='border px-2 rounded-xl w-[20%] cursor-pointer'
+        className='border px-2 rounded-xl w-[100%] lg:w-[20%] cursor-pointer'
       >
         Zobraziť počet návštev
       </button>
@@ -31,7 +31,7 @@ const Counter = () => {
 
       <button
         onClick={() => navigate('/')}
-        className='border px-2 rounded-xl w-[20%] cursor-pointer'
+        className='border px-2 rounded-xl w-[100%] lg:w-[20%] cursor-pointer'
       >
         Späť na stránku
       </button>
