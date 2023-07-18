@@ -23,7 +23,7 @@ const Section01 = () => {
       </div>
       <div className='text-[27.5px] text-justify mt-6'>
         <p>
-          Boh existuje! Stvorenie samé svedčí o Ňom.
+          Boh existuje! Stvorenie samé svedčí o Ňom.{' '}
           <span className='italic'>
             Lebo im je zjavné, čo môžu vedieť o Bohu; veď sám Boh im to zjavil.
             Lebo čo je neviditeľné z Neho, Jeho večná moc a božskosť, to od
@@ -35,7 +35,7 @@ const Section01 = () => {
       </div>
       <div className='text-[27.5px] text-justify mt-6'>
         <p>
-          Boh je láska a tá ho motivovala stvoriť ľudstvo, takže aj teba, aby
+          Boh je láska a tá Ho motivovala stvoriť ľudstvo, takže aj teba, aby
           mal s tebou osobný vzťah. Avšak pádom človeka v raji dedíme hriešnu
           prirodzenosť, ktorá bráni tomuto vzťahu.{' '}
           <span className='italic'>
@@ -52,7 +52,7 @@ const Section01 = () => {
       </div>
       <div className='text-[27.5px] text-justify mt-6'>
         <p>
-          Boh ťa tak veľmi miluje, že svojho Syna nechal obetovať za tvoje
+          Boh ťa tak veľmi miluje, že Svojho Syna nechal obetovať za tvoje
           hriechy.{' '}
           <span className='italic'>
             Lebo tak Boh miloval svet, že svojho jednorodeného Syna dal, aby

@@ -76,6 +76,51 @@ body {
   max-width: 100%;
 }
 
+.top-to-btm {
+  position: relative;
+}
+
+.icon-position {
+  position: fixed;
+  bottom: 80px;
+  right: 25px;
+  z-index: 20;
+}
+.icon-style {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #000;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+}
+.icon-style:hover {
+  animation: none;
+  background: #2b2a64;
+  color: #fff;
+  /* border: 2px solid #d57703; */
+}
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 /* Tablets and smaller*/
 
 @media (max-width: 768px) {
@@ -95,6 +140,14 @@ body {
       #6f277c,
       rgb(228, 40, 40)
     );
+  }
+
+  .section2 {
+    background-image: linear-gradient(to bottom, #04030b, #0a0a0b);
+  }
+
+  .section3 {
+    background-image: linear-gradient(to top, #04030b, #0a0a0b);
   }
   /* Your styles for tablets and smaller devices go here */
 }

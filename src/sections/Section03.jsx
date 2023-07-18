@@ -12,12 +12,11 @@ const Section03 = () => {
             ňom.
           </span>{' '}
           <span className='text-[17.5px]'>Ján 3:36</span>{' '}
-          <span>
+          <span className='italic'>
             Kto neverí, už je odsúdený, pretože neuveril v meno jednorodeného
             Syna Božieho.
           </span>{' '}
-          <span className='text-[17.5px]'>Ján 3:18</span> Preto daj sebe samému
-          šancu a čítaj ďalej.
+          <span className='text-[17.5px]'>Ján 3:18</span>
         </p>
       </div>
       <div className='text-[27.5px] text-justify mt-6'>
