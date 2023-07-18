@@ -36,7 +36,7 @@ const Home = () => {
         location='bottom'
         style={{
           background: '#782777',
-          color: '#000',
+          color: '#d7cde6',
           fontSize: '22.5px',
           textAlign: 'justify',
         }}
@@ -52,7 +52,7 @@ const Home = () => {
           increaseVisitorsCount()
         }}
       >
-        Táto stránka nezhromažďuje o návštevníkoch žiadne údaje
+        Táto stránka nezhromažďuje žiadne údaje
       </CookieConsent>
     </>
   )
