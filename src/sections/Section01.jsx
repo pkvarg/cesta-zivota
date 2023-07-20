@@ -3,12 +3,12 @@ import React from 'react'
 const Section01 = () => {
   return (
     <div className='hero px-[5%]'>
-      <div className='text-[45px] text-center pt-[5%]'>
+      <div className='text-[35px] lg:text-[45px] text-center pt-[5%]'>
         <h1 className='textgradient'>
           Uver pravde, buď oslobodený od hriechu a získaj večný život!
         </h1>
       </div>
-      <div className='text-[27.5px] text-justify mt-8'>
+      <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-8'>
         <p>
           Ak ešte neveríš v Boha, Jeho Syna a Ducha Svätého, prosím uvedom si,
           že svojou neverou nespôsobíš zánik Jeho existencie. Pýcha tvojho ega
@@ -21,7 +21,7 @@ const Section01 = () => {
           samému šancu a čítaj ďalej.
         </p>
       </div>
-      <div className='text-[27.5px] text-justify mt-6'>
+      <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-6'>
         <p>
           Boh existuje! Stvorenie samé svedčí o Ňom.{' '}
           <span className='italic'>
@@ -33,7 +33,7 @@ const Section01 = () => {
           <span className='text-[17.50px]'>Rimanom 1:19-20</span>{' '}
         </p>
       </div>
-      <div className='text-[27.5px] text-justify mt-6'>
+      <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-6'>
         <p>
           Boh je láska a tá Ho motivovala stvoriť ľudstvo, takže aj teba, aby
           mal s tebou osobný vzťah. Avšak pádom človeka v raji dedíme hriešnu
@@ -42,7 +42,7 @@ const Section01 = () => {
             Všetci totiž zhrešili a nemajú slávy Božej.
           </span>
           <span className='text-[17.50px]'> Rimanom 3:23</span>{' '}
-          <span>
+          <span className='italic'>
             {' '}
             Ak hovoríme, že nemáme hriech, sami seba klameme a nie je v nás
             pravda.
@@ -50,7 +50,7 @@ const Section01 = () => {
           <span className='text-[17.50px]'> Prvý Jánov 1:8</span>{' '}
         </p>
       </div>
-      <div className='text-[27.5px] text-justify mt-6'>
+      <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-6'>
         <p>
           Boh ťa tak veľmi miluje, že Svojho Syna nechal obetovať za tvoje
           hriechy.{' '}

@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 
 const Section05 = () => {
   return (
-    <div className='section5 text-[27.5px] text-justify pt-[80px]'>
+    <div className='section5 text-[22.5px] lg:text-[27.5px] text-justify pt-[80px]'>
       <div className='mx-[5%]'>
         <p>
           Začni čítať{' '}
@@ -31,7 +31,7 @@ const Section05 = () => {
             Rádio 7.
           </a>
         </div>
-        <p className='pt-4 text-[27.5px]'>
+        <p className='pt-4'>
           Ja ostávam v anonymite, pretože nie je podstatné ma poznať. Podstatný
           je obsah. Prajem ti, aby si uveril pravde, ktorou je Božie Slovo a
           získal tak späť postavenie, ktoré ti patrí.

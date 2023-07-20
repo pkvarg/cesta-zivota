@@ -22,7 +22,8 @@ body {
       rgb(12, 12, 12)
     ),
     url('/hero2.webp');
-  height: 100vh;
+  /* height: 100vh; */
+  height: min-content;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;

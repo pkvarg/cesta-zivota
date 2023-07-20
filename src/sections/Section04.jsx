@@ -4,7 +4,7 @@ import Slider from '../components/Slider'
 const Section04 = () => {
   return (
     <div className='section4'>
-      <h3 className='text-[30px] pt-[75px] text-center mx-[5%] lg:mx-0'>
+      <h3 className='text-[22.5px] lg:text-[30px] pt-[75px] text-center mx-[5%] lg:mx-0'>
         Viac sa dočítaš v tejto 170-stranovej knihe, ktorá je zdarma.
       </h3>
       <div className='lg:mx-[25px] p-[50px] flex flex-col lg:flex-row items-center'>
@@ -15,7 +15,7 @@ const Section04 = () => {
         />
         <Slider />
       </div>
-      <h3 className='text-[25px] text-center'>
+      <h3 className='text-[20px] lg:text-[25px] text-center'>
         Pýtaj si ju u Jimmyho alebo skús v niektorých kresťanských
         spoločenstvách.
       </h3>
