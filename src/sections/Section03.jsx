@@ -44,12 +44,13 @@ const Section03 = () => {
       </div>
       <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-6'>
         <p>
-          Prijmi Ježiša za svojho Pána a Spasiteľa v modlitbe takto: “Nebeský
-          Otče, ďakujem Ti, že si poslal Svojho Syna, aby niesol trest za moje
-          hriechy. Verím, že Ježiš zomrel na kríži a tretí deň vstal z mŕtvych a
-          žije. Prosím, odpusť mi všetky hriechy skrze krv Ježiša Krista.
-          Ďakujem Ti, že si ma očistil. Ježišu, vyznávam Ťa ako môjho Pána a
-          Spasiteľa. Prosím, vstúp do môjho života. Amen.”{' '}
+          Kajaj sa zo svojich hriechov a prijmi Ježiša za svojho Pána a
+          Spasiteľa v modlitbe takto: “Nebeský Otče, ďakujem Ti, že si poslal
+          Svojho Syna, aby niesol trest za moje hriechy. Verím, že Ježiš zomrel
+          na kríži a tretí deň vstal z mŕtvych a žije. Prosím, odpusť mi všetky
+          hriechy skrze krv Ježiša Krista. Ďakujem Ti, že si ma očistil. Ježišu,
+          vyznávam Ťa ako môjho Pána a Spasiteľa. Prosím, vstúp do môjho života.
+          Amen.”{' '}
         </p>
       </div>
     </div>

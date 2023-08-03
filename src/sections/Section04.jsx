@@ -16,8 +16,8 @@ const Section04 = () => {
         <Slider />
       </div>
       <h3 className='text-[20px] lg:text-[25px] text-center'>
-        Pýtaj si ju u Jimmyho alebo skús v niektorých kresťanských
-        spoločenstvách.
+        Pýtaj si ju u mňa na čísle 0951 008 940 alebo u Jimmyho alebo skús v
+        niektorých kresťanských spoločenstvách.
       </h3>
     </div>
   )

@@ -6,7 +6,8 @@ const Section05 = () => {
     <div className='section5 text-[22.5px] lg:text-[27.5px] text-justify pt-[80px]'>
       <div className='mx-[5%]'>
         <p>
-          Začni čítať{' '}
+          Daj sa pokrstiť v mene Ježiša Krista na odpustenie hriechov, začni sa
+          každodenne modliť a čítať{' '}
           <a className='underline' href='https://biblia.sk' target='_blank'>
             Bibliu
           </a>
@@ -32,9 +33,8 @@ const Section05 = () => {
           </a>
         </div>
         <p className='pt-4'>
-          Ja ostávam v anonymite, pretože nie je podstatné ma poznať. Podstatný
-          je obsah. Prajem ti, aby si uveril pravde, ktorou je Božie Slovo a
-          získal tak späť postavenie, ktoré ti patrí.
+          Prajem ti, aby si uveril pravde, ktorou je Božie Slovo a získal tak
+          späť postavenie, ktoré ti patrí.
         </p>
       </div>
 

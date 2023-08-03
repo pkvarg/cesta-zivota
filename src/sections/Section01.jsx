@@ -53,7 +53,9 @@ const Section01 = () => {
       <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-6'>
         <p>
           Boh ťa tak veľmi miluje, že Svojho Syna nechal obetovať za tvoje
-          hriechy.{' '}
+          hriechy, pretože{' '}
+          <span className='italic'>bez vyliatia krvi niet odpustenia.</span>{' '}
+          <span className='text-[17.50px]'>Hebrejom 9:22</span>{' '}
           <span className='italic'>
             Lebo tak Boh miloval svet, že svojho jednorodeného Syna dal, aby
             nezahynul, ale večný život mal každý, kto verí v Neho.
