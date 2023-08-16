@@ -75,10 +75,10 @@ const Slider = () => {
     image36,
   ]
 
-  const [size, setSize] = useState('w-[65%]')
+  const [size, setSize] = useState('w-[100%] lg:w-[65%]')
   const [btnColor, setBtnColor] = useState('')
   const [btnColor2, setBtnColor2] = useState('')
-  const [progress, setProgress] = useState('')
+  const [progress, setProgress] = useState('-top-2')
 
   const [windowWidth, setWindowWidth] = useState()
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -105,10 +105,10 @@ const Slider = () => {
   }
 
   const close = () => {
-    setSize('w-[65%]')
+    setSize('w-[100%] lg:w-[65%]')
     setBtnColor('')
     setBtnColor2('')
-    setProgress('top-[54%] text-[#e4d1f0]')
+    setProgress('')
   }
 
   useEffect(() => {
@@ -118,7 +118,7 @@ const Slider = () => {
 
   return (
     <>
-      {size === 'w-[65%]' && (
+      {size === 'w-[100%] lg:w-[65%]' && (
         <img
           className='w-[100%] lg:w-[25%] mb-8 lg:mb-0 lg:mr-[35px]'
           src='/IMG_01.webp'
@@ -144,7 +144,7 @@ const Slider = () => {
           >
             <strong>{currentIndex + 1} / 35</strong>
           </p>
-          {size !== 'w-[65%]' && (
+          {size !== 'w-[100%] lg:w-[65%]' && (
             <button
               onClick={close}
               className='text-[#c90927] text-[25px] absolute top-2 right-4'
@@ -156,7 +156,7 @@ const Slider = () => {
           <img
             src={images[currentIndex]}
             alt={`Slide ${currentIndex + 1}`}
-            className={`mx-auto w-[100%] lg:${size} cursor-pointer`}
+            className={`mx-auto ${size} cursor-pointer`}
             onClick={() => imageSize()}
           />
         </div>
