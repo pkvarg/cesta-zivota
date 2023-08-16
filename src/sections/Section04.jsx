@@ -8,11 +8,11 @@ const Section04 = () => {
         Viac sa dočítaš v tejto 170-stranovej knihe, ktorá je zdarma.
       </h3>
       <div className='lg:mx-[25px] p-[50px] flex flex-col lg:flex-row items-center'>
-        <img
+        {/* <img
           className='w-[100%] lg:w-[25%] mb-8 lg:mb-0 lg:mr-[35px]'
-          src='/Img01.webp'
+          src='/IMG_01.webp'
           alt='book-title'
-        />
+        /> */}
         <Slider />
       </div>
       <h3 className='text-[20px] lg:text-[25px] text-center'>
