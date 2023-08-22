@@ -28,6 +28,13 @@ const Section03 = () => {
             <span className='text-[17.5px]'>Ján 3:36</span> Kto verí v Neho,
             nebude súdený. <span className='text-[17.5px]'>Ján 3:18</span>
           </span>
+          <span className='italic'>
+            {' '}
+            Ak ústami vyznávaš Pána Ježiša a v srdci veríš, že Ho Boh vzkriesil
+            z mŕtvych, budeš spasený; lebo srdcom veríme na spravodlivosť a
+            ústami vyznávame na spasenie.{' '}
+            <span className='text-[17.5px]'>Rimanom 10:9-10</span>
+          </span>
         </p>
       </div>
       <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-6'>
