@@ -7,13 +7,14 @@ const Section05 = () => {
       <div className='mx-[5%]'>
         <p>
           Daj sa pokrstiť v mene Ježiša Krista na odpustenie hriechov, začni sa
-          každodenne modliť a čítať{' '}
+          každodenne modliť, aby si udržiaval živý vzťah s Bohom a čítať{' '}
           <a className='underline' href='https://biblia.sk' target='_blank'>
             Bibliu
           </a>
-          , ideálne ako prvé Evanjelium Jána a pravidelne navštevuj nejaké
-          spoločenstvo, kde oslavujú Boha Otca, Ježiša a Svätého Ducha; nie
-          Máriu ani Jehovu ani nikoho iného.
+          , aby si bol plný Jeho Slova a podľa Neho žil. Ideálne ako prvé
+          Evanjelium Jána a pravidelne navštevuj nejaké spoločenstvo, kde
+          oslavujú Boha Otca, Ježiša a Svätého Ducha; nie Máriu ani Jehovu ani
+          nikoho iného.
         </p>
         <div className='flex flex-col lg:flex-row gap-2 pt-4'>
           <p> Ak chceš viac, skús napríklad:</p>

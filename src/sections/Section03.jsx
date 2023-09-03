@@ -21,8 +21,9 @@ const Section03 = () => {
       </div>
       <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-6'>
         <p>
-          Ak ale v Neho uveríš, že bol ukrižovaný za tvoje hriechy a na tretí
-          deň vstal z mŕtvych a budeš Ho nasledovať, budeš zachránený.{' '}
+          Ver v Pána Ježiša Krista a budeš spasený. Ver v to, že bol ukrižovaný
+          a zomrel za tvoje hriechy, že Ho Boh na tretí deň vzkriesil z mŕtvych
+          a že teraz sedí po Jeho pravici.{' '}
           <span className='italic'>
             Kto verí v Syna, má večný život.{' '}
             <span className='text-[17.5px]'>Ján 3:36</span> Kto verí v Neho,
@@ -51,12 +52,13 @@ const Section03 = () => {
       </div>
       <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-6'>
         <p>
-          Kajaj sa zo svojich hriechov a prijmi Ježiša za svojho Pána a
-          Spasiteľa v modlitbe takto: “Nebeský Otče, ďakujem Ti, že si poslal
-          Svojho Syna, aby niesol trest za moje hriechy. Verím, že Ježiš zomrel
-          na kríži a tretí deň vstal z mŕtvych a žije. Prosím, odpusť mi všetky
-          hriechy skrze krv Ježiša Krista. Ďakujem Ti, že si ma očistil. Ježišu,
-          vyznávam Ťa ako môjho Pána a Spasiteľa. Prosím, vstúp do môjho života.
+          Kajaj sa zo svojich hriechov a úprimne zo srdca ústami vyznaj Ježiša v
+          modlitbe takto: “Nebeský Otče, ďakujem Ti, že si poslal Svojho Syna,
+          aby niesol trest za moje hriechy. Verím, že Ježiš zomrel na kríži a
+          tretí deň vstal z mŕtvych a žije. Vzdávam sa doterajšieho hriešneho
+          spôsobu života. Prosím, odpusť mi všetky hriechy skrze krv Ježiša
+          Krista. Ďakujem Ti, že si ma očistil. Ježišu, vyznávam Ťa ako môjho
+          Pána a Spasiteľa. Prosím, meň moje srdce a formuj môj charakter.
           Amen.”{' '}
         </p>
       </div>
