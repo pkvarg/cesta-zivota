@@ -3,7 +3,7 @@ import YouTube from '../components/YouTube'
 
 const Section02 = () => {
   return (
-    <div className='section2 pt-[5%] lg:pt-[6%]'>
+    <div className='section2 pt-[15%] lg:pt-[6%]'>
       <h3 className='text-[25px] lg:text-[30px]  text-center'>
         Svedectvo môjho kamaráta Jimmyho Synovca
       </h3>

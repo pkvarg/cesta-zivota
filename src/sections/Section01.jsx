@@ -21,7 +21,7 @@ const Section01 = () => {
           samému šancu a čítaj ďalej.
         </p>
       </div>
-      <div className='text-[205px] lg:text-[22.5px] text-justify mt-6'>
+      <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
         <p>
           Boh existuje! Stvorenie samé svedčí o Ňom.{' '}
           <span className='italic'>
