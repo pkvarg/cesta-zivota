@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 
 const Section05 = () => {
   return (
-    <div className='section5 text-[22.5px] lg:text-[27.5px] text-justify pt-[80px]'>
+    <div className='section5 text-[20px] lg:text-[22.5px] text-justify pt-[80px]'>
       <div className='mx-[5%]'>
         <p>
           Daj sa pokrstiť v mene Ježiša Krista na odpustenie hriechov, začni sa

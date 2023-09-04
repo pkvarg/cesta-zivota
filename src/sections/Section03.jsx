@@ -3,7 +3,7 @@ import React from 'react'
 const Section03 = () => {
   return (
     <div className='section3 px-[5%]'>
-      <div className='text-[22.5px] lg:text-[27.5px] text-justify'>
+      <div className='text-[20px] lg:text-[22.5px] text-justify'>
         <p>
           Ak sa rozhodneš ignorovať Jeho obeť a šancu na záchranu, budeš
           odsúdený.{' '}
@@ -19,7 +19,7 @@ const Section03 = () => {
           <span className='text-[17.5px]'>Ján 3:18</span>
         </p>
       </div>
-      <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-6'>
+      <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
         <p>
           Ver v Pána Ježiša Krista a budeš spasený. Ver v to, že bol ukrižovaný
           a zomrel za tvoje hriechy, že Ho Boh na tretí deň vzkriesil z mŕtvych
@@ -38,7 +38,7 @@ const Section03 = () => {
           </span>
         </p>
       </div>
-      <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-6'>
+      <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
         <p>
           Evanjelium neznamená “Uver, inak pôjdeš do pekla!”, ale ”Uver, lebo
           tam smeruješ!”{' '}
@@ -50,7 +50,7 @@ const Section03 = () => {
           <span className='text-[17.5px] italic'> Ezechiel 33:11</span>
         </p>
       </div>
-      <div className='text-[22.5px] lg:text-[27.5px] text-justify mt-6'>
+      <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
         <p>
           Kajaj sa zo svojich hriechov a úprimne zo srdca ústami vyznaj Ježiša v
           modlitbe takto: “Nebeský Otče, ďakujem Ti, že si poslal Svojho Syna,
