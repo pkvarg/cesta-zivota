@@ -21,9 +21,7 @@ const Section03 = () => {
       </div>
       <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
         <p>
-          Ver v Pána Ježiša Krista a budeš spasený. Ver v to, že bol ukrižovaný
-          a zomrel za tvoje hriechy, že Ho Boh na tretí deň vzkriesil z mŕtvych
-          a že teraz sedí po Jeho pravici.{' '}
+          Ver v Pána Ježiša Krista a budeš spasený.{' '}
           <span className='italic'>
             Kto verí v Syna, má večný život.{' '}
             <span className='text-[17.5px]'>Ján 3:36</span> Kto verí v Neho,

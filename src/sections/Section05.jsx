@@ -14,7 +14,33 @@ const Section05 = () => {
           , aby si bol plný Jeho Slova a podľa Neho žil. Ideálne ako prvé
           Evanjelium Jána a pravidelne navštevuj nejaké spoločenstvo, kde
           oslavujú Boha Otca, Ježiša a Svätého Ducha.
-          <p className='text-center mt-8'>
+          <div className='pt-4'>
+            <p className='text-justify'>
+              "Prečo treba aj toto? Pretože viera bez skutkov je neužitočná.
+              Viera bez poslušnosti Slovu Božiemu je pokrytectvom. Takú falošnú
+              vieru Boh neprijme a odsúdi. Mŕtva viera ťa nespasí! Poslušnosťou
+              Ježišovi Kristovi udržiavaš seba pod Jeho panstvom.
+              <span className='italic'>
+                {' '}
+                Kto hovorí: Poznám Ho, ale nezachováva Jeho prikázania, je
+                klamár a niet v ňom pravdy. Ak niekto miluje svet (žiadosť tela,
+                žiadosť očí, pýchu života), nieto v ňom lásky k Otcovi.{' '}
+              </span>
+              <span className='text-[17.5px]'> Prvý Jánov 2:4,15 </span>
+            </p>
+            <p className='pt-4 text-center'>
+              Viac v tejto audio knihe{' '}
+              <a
+                className='underline'
+                href='https://app.messengerx.com/sk-SK/listen/1DB0tFrLRez7blmTBmVSlZ/qo21vqS1ZFttSJR05ydGL_s3AudioAsset.mp3'
+                target='_blank'
+              >
+                Ži s perspektívou večnosti
+              </a>
+              , 5. kapitola.
+            </p>
+          </div>
+          <p className='text-center mt-4'>
             {' '}
             Sú všetky cirkevné tradície podložené Božím Slovom? Viac na{' '}
             <a
