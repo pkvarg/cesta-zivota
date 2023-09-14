@@ -27,8 +27,6 @@ const Section05 = () => {
             pýchu života), nieto v ňom lásky k Otcovi.{' '}
           </span>
           <span className='text-[17.5px]'> Prvý Jánov 2:4,15 </span>
-        </p>
-        <p className='pt-4 text-center'>
           Viac v tejto audio knihe{' '}
           <a
             className='underline'
@@ -39,6 +37,17 @@ const Section05 = () => {
           </a>
           , 5. kapitola.
         </p>
+        {/* <p className='pt-4 text-center'>
+          Viac v tejto audio knihe{' '}
+          <a
+            className='underline'
+            href='https://app.messengerx.com/sk-SK/listen/1DB0tFrLRez7blmTBmVSlZ/qo21vqS1ZFttSJR05ydGL_s3AudioAsset.mp3'
+            target='_blank'
+          >
+            Ži s perspektívou večnosti
+          </a>
+          , 5. kapitola.
+        </p> */}
         <p className='text-center mt-4'>
           {' '}
           Sú všetky cirkevné tradície podložené Božím Slovom? Viac na{' '}
