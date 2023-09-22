@@ -50,14 +50,13 @@ const Section03 = () => {
       </div>
       <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
         <p>
-          Kajaj sa zo svojich hriechov a úprimne zo srdca ústami vyznaj Ježiša v
-          modlitbe takto: “Nebeský Otče, ďakujem Ti, že si poslal Svojho Syna,
-          aby niesol trest za moje hriechy. Verím, že Ježiš zomrel na kríži a
-          tretí deň vstal z mŕtvych a žije. Vzdávam sa doterajšieho hriešneho
-          spôsobu života. Prosím, odpusť mi všetky hriechy skrze krv Ježiša
-          Krista. Ďakujem Ti, že si ma očistil. Ježišu, vyznávam Ťa ako môjho
-          Pána a Spasiteľa. Prosím, meň moje srdce a formuj môj charakter.
-          Amen.”{' '}
+          Kajaj sa zo svojich hriechov a úprimne zo srdca ústami vyznaj:
+          “Nebeský Otče, ďakujem Ti, že si poslal Svojho Syna, aby niesol trest
+          za moje hriechy. Verím, že Ježiš zomrel na kríži a tretí deň vstal z
+          mŕtvych a žije. Vzdávam sa doterajšieho hriešneho spôsobu života.
+          Prosím, odpusť mi všetky hriechy skrze krv Ježiša Krista. Ďakujem Ti,
+          že si ma očistil. Ježišu, vyznávam Ťa ako môjho Pána a Spasiteľa.
+          Prosím, meň moje srdce a formuj môj charakter. Amen.”{' '}
         </p>
       </div>
     </div>

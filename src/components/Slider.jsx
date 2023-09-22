@@ -140,7 +140,7 @@ const Slider = () => {
             &gt;
           </button>
           <p
-            className={`hidden lg:flex text-[22.5px]  absolute ${progress}  right-[2%]`}
+            className={`flex text-[18px] lg:text-[22.5px] absolute top-[102%] lg:top-0 lg:right-[2%] ${progress}`}
           >
             <strong>{currentIndex + 1} / 35</strong>
           </p>

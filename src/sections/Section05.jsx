@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../components/Footer'
+import SliderTract from '../components/SliderTract'
 
 const Section05 = () => {
   return (
@@ -7,7 +8,15 @@ const Section05 = () => {
       <div className='mx-[5%]'>
         <p>
           Daj sa pokrstiť v mene Ježiša Krista na odpustenie hriechov, začni sa
-          každodenne modliť, aby si udržiaval živý vzťah s Bohom a čítať{' '}
+          každodenne modliť{' '}
+          <a
+            className='underline'
+            href='https://www.rhemabooks.org/sk/free-christian-books/basic-elements-of-the-christian-life-2/'
+            target='_blank'
+          >
+            vlastnými slovami
+          </a>{' '}
+          , aby si udržiaval živý vzťah s Bohom a čítať{' '}
           <a className='underline' href='https://biblia.sk' target='_blank'>
             Bibliu
           </a>
@@ -68,7 +77,8 @@ const Section05 = () => {
           </a>
           .{' '}
         </p>
-        <p className='text-center mt-4'>
+        <SliderTract />
+        <p className='text-center pt-8 lg:pt-4'>
           Prajem ti, aby si uveril pravde, ktorou je Božie Slovo a získal tak
           späť postavenie, ktoré ti patrí.
         </p>
