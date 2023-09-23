@@ -57,7 +57,9 @@ const Section05 = () => {
           </a>
           , 5. kapitola.
         </p> */}
-        <p className='text-center mt-4'>
+        <SliderTract />
+
+        <p>
           {' '}
           Sú všetky cirkevné tradície podložené Božím Slovom? Viac na{' '}
           <a
@@ -65,20 +67,21 @@ const Section05 = () => {
             target='_blank'
             className='underline'
           >
-            katolickaviera.sk
+            {' '}
+            katolickaviera.sk.
           </a>
-          .
-        </p>
-        <p className='text-center mt-4'>
-          {' '}
+          {'  '}
           Hlásajú svedkovia Jehovovi evanjelium, aké hlásali apoštoli? Viac na{' '}
           <a href='https://svedkovia.sk' target='_blank' className='underline'>
-            svedkovia.sk
+            svedkovia.sk.
+          </a>{' '}
+          Je emocionálne uspokojenie cesta k pravému šťastiu človeka? Viac na{' '}
+          <a href='https://duhovyrod.sk' target='_blank' className='underline'>
+            duhovyrod.sk.
           </a>
-          .{' '}
         </p>
-        <SliderTract />
-        <p className='text-center pt-8 lg:pt-4'>
+
+        <p className='text-center pt-8 lg:pt-8'>
           Prajem ti, aby si uveril pravde, ktorou je Božie Slovo a získal tak
           späť postavenie, ktoré ti patrí.
         </p>

@@ -11,10 +11,10 @@ const Footer = () => {
         <a href='https://fireproduction.sk' target='_blank'>
           fireproduction.sk
         </a>{' '}
-        <span className='hidden lg:block'>|</span>
+        {/* <span className='hidden lg:block'>|</span>
         <a href='https://radio7.sk' target='_blank'>
           Rádio 7
-        </a>
+        </a> */}
       </div>
 
       <a

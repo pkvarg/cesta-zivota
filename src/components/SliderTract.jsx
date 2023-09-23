@@ -63,6 +63,8 @@ const SliderTract = () => {
   const image22 =
     'https://www.chick.com/images/tracts/0710/0710_22.gif?05092022090907'
 
+  const image23 = '/tractEnd.webp'
+
   const images = [
     image2,
     image3,
@@ -85,6 +87,7 @@ const SliderTract = () => {
     image20,
     image21,
     image22,
+    image23,
   ]
 
   const [size, setSize] = useState('w-[100%] lg:w-[65%]')
@@ -147,7 +150,7 @@ const SliderTract = () => {
           <p
             className={`hidden lg:flex text-[22.5px]  absolute ${progress}  right-[2%]`}
           >
-            <strong>{currentIndex + 1} / 21</strong>
+            <strong>{currentIndex + 1} / 22</strong>
           </p>
           {/* {size !== 'w-[100%] lg:w-[65%]' && (
             <button
