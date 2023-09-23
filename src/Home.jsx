@@ -53,13 +53,15 @@ const Home = () => {
         style={{
           background: '#782777',
           color: '#d7cde6',
-          fontSize: '22.5px',
-          textAlign: 'justify',
+          fontSize: '18px',
+          textAlign: 'start',
         }}
         buttonStyle={{
           background: '#1d9f2f',
           color: '#fff',
-          fontSize: '22.5px',
+          fontSize: '18px',
+          padding: '7px',
+          borderRadius: '25px',
         }}
         buttonText='Pokračovať'
         expires={365}
