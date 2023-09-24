@@ -178,7 +178,7 @@ const SliderTract = () => {
           <p
             className={`flex text-[18px] lg:text-[22.5px]  absolute ${progress} top-[108%]`}
           >
-            <strong>{currentIndex + 1} / 21</strong>
+            <strong>{currentIndex + 1} / 22</strong>
           </p>
           <button
             onClick={nextImage}
