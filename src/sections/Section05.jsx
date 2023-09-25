@@ -25,10 +25,11 @@ const Section05 = () => {
           oslavujú Boha Otca, Ježiša a Svätého Ducha.
         </p>
         <p className='text-justify pt-4'>
-          Prečo treba aj toto? Pretože viera bez skutkov je neužitočná. Viera
-          bez poslušnosti Slovu Božiemu je pokrytectvom. Takú falošnú vieru Boh
-          neprijme a odsúdi. Mŕtva viera ťa nespasí! Poslušnosťou Ježišovi
-          Kristovi udržiavaš seba pod Jeho panstvom.
+          Prečo nestačí len uveriť a ďalej to neriešiť? Pretože viera bez
+          osobného vzťahu s Ježišom je len mŕtve náboženstvo a viera bez
+          poslušnosti Božiemu Slovu je pokrytectvom. Takú falošnú vieru Boh
+          neprijme a odsúdi. Mŕtva viera ťa nespasí! Pánom ti je ten, koho
+          poslúchaš.
           <span className='italic'>
             {' '}
             Kto hovorí: Poznám Ho, ale nezachováva Jeho prikázania, je klamár a

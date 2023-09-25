@@ -5,7 +5,7 @@ const Section04 = () => {
   return (
     <div className='section4'>
       <h3 className='text-[22.5px] lg:text-[25px] pt-[75px] text-center mx-[5%] lg:mx-0'>
-        Viac sa dočítaš v tejto 170-stranovej knihe, ktorá je zdarma.
+        Viac sa dočítaš v tejto knihe.
       </h3>
       <div className='lg:mx-[25px] p-[50px] flex flex-col lg:flex-row items-center'>
         {/* <img
@@ -16,8 +16,9 @@ const Section04 = () => {
         <Slider />
       </div>
       <h3 className='text-[20px] lg:text-[22.5px] text-center'>
-        Pýtaj si ju u mňa na čísle 0951 008 940 alebo u Jimmyho alebo skús v
-        niektorých kresťanských spoločenstvách.
+        Bezplatnú necenzurovanú 170 stranovú e-knihu si pýtaj u mňa na
+        xxxe-mailxxx alebo bezplatnú knižnú verziu skús v niektorých
+        kresťanských spoločenstvách.
       </h3>
     </div>
   )
