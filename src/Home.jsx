@@ -61,7 +61,7 @@ const Home = () => {
           color: '#fff',
           fontSize: '18px',
           padding: '7px',
-          borderRadius: '25px',
+          // borderRadius: '25px',
         }}
         buttonText='Pokračovať'
         expires={365}
