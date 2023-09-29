@@ -41,8 +41,8 @@ const Home = () => {
   return (
     <>
       <Section01 language={language} />
-      <Section02 />
-      <Section03 />
+      <Section02 language={language} />
+      <Section03 language={language} />
       <Section04 />
       <Section05 />
       <CookieConsent

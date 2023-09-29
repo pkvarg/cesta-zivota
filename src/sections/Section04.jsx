@@ -16,9 +16,7 @@ const Section04 = () => {
         <Slider />
       </div>
       <h3 className='text-[20px] lg:text-[22.5px] text-center'>
-        Bezplatnú necenzurovanú 170 stranovú e-knihu si pýtaj u mňa na
-        xxxe-mailxxx alebo bezplatnú knižnú verziu skús v niektorých
-        kresťanských spoločenstvách.
+        Vytlačenú bezplatnú knihu si pýtaj u mňa na cestazivota@cestazivota.sk
       </h3>
     </div>
   )

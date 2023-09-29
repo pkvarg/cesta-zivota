@@ -1,51 +1,87 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import Translation from '../Data.json'
 
-const Section03 = () => {
+const Section03 = ({ language }) => {
+  const [content, setContent] = useState({})
+
+  useEffect(() => {
+    if (language === 'slovak') {
+      setContent(Translation.slovak)
+    } else {
+      setContent(Translation.english)
+    }
+  })
+
   return (
     <div className='section3 px-[5%]'>
       <div className='text-[20px] lg:text-[22.5px] text-justify'>
         <p>
-          Ak sa rozhodneš ignorovať Jeho obeť a šancu na záchranu, budeš
-          odsúdený.{' '}
+          {content.s3Text1}
+          {/* Ak sa rozhodneš ignorovať Jeho obeť a šancu na záchranu, budeš
+          odsúdený. */}{' '}
           <span className='italic'>
-            Kto však neposlúcha Syna, neuvidí život, ale hnev Boží zostáva na
-            ňom.
+            {content.s3Verse1}
+            {/* Kto však neposlúcha Syna, neuvidí život, ale hnev Boží zostáva na
+            ňom. */}
           </span>{' '}
-          <span className='text-[17.5px]'>Ján 3:36</span>{' '}
+          <span className='text-[17.5px]'>
+            {content.s3Ref1}
+            {/* Ján 3:36 */}
+          </span>{' '}
           <span className='italic'>
-            Kto neverí, už je odsúdený, pretože neuveril v meno jednorodeného
-            Syna Božieho.
+            {content.s3Verse2}
+            {/* Kto neverí, už je odsúdený, pretože neuveril v meno jednorodeného
+            Syna Božieho. */}
           </span>{' '}
-          <span className='text-[17.5px]'>Ján 3:18</span>
+          <span className='text-[17.5px]'>{content.s3Ref2}</span>
         </p>
       </div>
       <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
         <p>
-          Ver v Pána Ježiša Krista a budeš spasený.{' '}
+          {content.s3Text2}
+          {/* Ver v Pána Ježiša Krista a budeš spasený! */}{' '}
           <span className='italic'>
-            Kto verí v Syna, má večný život.{' '}
-            <span className='text-[17.5px]'>Ján 3:36</span> Kto verí v Neho,
-            nebude súdený. <span className='text-[17.5px]'>Ján 3:18</span>
+            {content.s3Verse3}
+            {/* Kto verí v Syna, má večný život. */}{' '}
+            <span className='text-[17.5px]'>
+              {content.s3Ref3} {/* Ján 3:36 */}
+            </span>
+            {content.s3Verse4}
+            {/* Kto verí v Neho,
+            nebude súdený.  */}
+            <span className='text-[17.5px]'>
+              {' '}
+              {content.s3Ref4} {/* Ján 3:18 */}
+            </span>
           </span>
           <span className='italic'>
             {' '}
-            Ak ústami vyznávaš Pána Ježiša a v srdci veríš, že Ho Boh vzkriesil
+            {content.s3Verse5}
+            {/* Ak ústami vyznávaš Pána Ježiša a v srdci veríš, že Ho Boh vzkriesil
             z mŕtvych, budeš spasený; lebo srdcom veríme na spravodlivosť a
-            ústami vyznávame na spasenie.{' '}
-            <span className='text-[17.5px]'>Rimanom 10:9-10</span>
+            ústami vyznávame na spasenie. */}{' '}
+            <span className='text-[17.5px]'>
+              {content.s3Ref5}
+              {/* Rimanom 10:9-10 */}
+            </span>
           </span>
         </p>
       </div>
       <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
         <p>
-          Evanjelium neznamená “Uver, inak pôjdeš do pekla!”, ale ”Uver, lebo
-          tam smeruješ!”{' '}
+          {content.s3Text3}
+          {/* Evanjelium neznamená “Uver, inak pôjdeš do pekla!”, ale ”Uver, lebo
+          tam smeruješ!” */}{' '}
           <span className='italic'>
-            Povedz im: Akože žijem - znie výrok Hospodina, Pána - nemám záľubu v
+            {content.s3Verse6}
+            {/* Povedz im: Akože žijem - znie výrok Hospodina, Pána - nemám záľubu v
             smrti bezbožného, ale v tom, že sa bezbožný odvráti od svojho
-            spôsobu života a bude žiť.{' '}
+            spôsobu života a bude žiť. */}{' '}
           </span>
-          <span className='text-[17.5px] italic'> Ezechiel 33:11</span>
+          <span className='text-[17.5px] italic'>
+            {content.s3Ref6}
+            {/* Ezechiel 33:11 */}
+          </span>
         </p>
       </div>
       <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>

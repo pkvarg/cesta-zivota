@@ -20,16 +20,14 @@ const Section05 = () => {
           <a className='underline' href='https://biblia.sk' target='_blank'>
             Bibliu
           </a>
-          , aby si bol plný Jeho Slova a podľa Neho žil. Ideálne ako prvé
-          Evanjelium Jána a pravidelne navštevuj nejaké spoločenstvo, kde
-          oslavujú Boha Otca, Ježiša a Svätého Ducha.
+          , aby si bol plný Jeho Slova a podľa Neho žil. A pravidelne navštevuj
+          nejaké spoločenstvo, kde oslavujú Boha Otca, Ježiša a Svätého Ducha.
         </p>
         <p className='text-justify pt-4'>
-          Prečo nestačí len uveriť a ďalej to neriešiť? Pretože viera bez
-          osobného vzťahu s Ježišom je len mŕtve náboženstvo a viera bez
-          poslušnosti Božiemu Slovu je pokrytectvom. Takú falošnú vieru Boh
-          neprijme a odsúdi. Mŕtva viera ťa nespasí! Pánom ti je ten, koho
-          poslúchaš.
+          Prečo nestačí len formálne uveriť a ďalej to neriešiť? Pretože viera
+          bez osobného vzťahu s Ježišom a bez poslušnosti Božiemu Slovu je
+          pokrytectvom. Takú falošnú vieru Boh neprijme a odsúdi. Mŕtva viera ťa
+          nespasí! Pánom ti je ten, koho poslúchaš.
           <span className='italic'>
             {' '}
             Kto hovorí: Poznám Ho, ale nezachováva Jeho prikázania, je klamár a
@@ -45,7 +43,7 @@ const Section05 = () => {
           >
             Ži s perspektívou večnosti
           </a>
-          , 5. kapitola.
+          <span className='text-[15px]'>, 5. kapitola.</span>
         </p>
         {/* <p className='pt-4 text-center'>
           Viac v tejto audio knihe{' '}
