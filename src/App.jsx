@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import Counter from './Counter'
 import ScrollToTop from './components/ScrollToTop'
+import { StateContext } from './context/StateContext'
 
 import Section01 from './sections/Section01'
 import Section02 from './sections/Section02'
@@ -13,11 +14,13 @@ import Section05 from './sections/Section05'
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/counter' element={<Counter />} />
-      </Routes>
-      <ScrollToTop />
+      <StateContext>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/counter' element={<Counter />} />
+        </Routes>
+        <ScrollToTop />
+      </StateContext>
     </BrowserRouter>
   )
 }

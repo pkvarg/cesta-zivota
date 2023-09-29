@@ -1,0 +1,49 @@
+{
+  "slovak": {
+    "heroTitle": "Uver pravde, buď oslobodený od hriechu a získaj večný život!",
+    "heroText1": "Ak ešte neveríš v Boha, Jeho Syna a Ducha Svätého, prosím uvedom si, že svojou neverou nespôsobíš zánik Jeho existencie. Pýcha tvojho ega ti nedovoľuje pripustiť, že nie ty vládneš nad svojím životom, ale On má všetko pod kontrolou.",
+    "heroVerse1": "Vo svojom srdci blázon hovorí: Niet Boha!",
+    "heroRef1": "Žalmy 14:1",
+    "heroText2": "Preto daj sebe samému šancu a čítaj ďalej.",
+
+    "heroText3": "Boh existuje! Stvorenie samé svedčí o Ňom.",
+    "heroVerse3": "Lebo im je zjavné, čo môžu vedieť o Bohu; veď sám Boh im to zjavil. Lebo čo je neviditeľné z Neho, Jeho večná moc a božskosť, to od stvorenia sveta rozjímaním môžu pozorovať z Jeho diel, takže nemajú ospravedlnenie.",
+    "heroRef3": "Rimanom 1:19-20",
+
+    "heroText4": "Boh je láska a tá Ho motivovala stvoriť ľudstvo, takže aj teba, aby mal s tebou osobný vzťah. Avšak pádom človeka v raji dedíme hriešnu prirodzenosť, ktorá bráni tomuto vzťahu.",
+    "heroVerse4": "Všetci totiž zhrešili a nemajú slávy Božej.",
+    "heroRef4": "Rimanom 3:23",
+    "heroVerse5": "Ak hovoríme, že nemáme hriech, sami seba klameme a nie je v nás pravda.",
+    "heroRef5": "Prvý Jánov 1:8",
+
+    "heroText6": "Boh ťa tak veľmi miluje, že Svojho Syna nechal obetovať za tvoje hriechy, pretože ",
+    "heroVerse6": "bez vyliatia krvi niet odpustenia.  ",
+    "heroRef6": "Hebrejom 9:22",
+    "heroVerse7": "Lebo tak Boh miloval svet, že svojho jednorodeného Syna dal, aby nezahynul, ale večný život mal každý, kto verí v Neho. ",
+    "heroRef7": "Ján 3:16"
+  },
+
+  "english": {
+    "heroTitle": "Believe the truth, be freed from sin and reach eternal life!",
+    "heroText1": "If you still do not believe in God, His Son and the Holy Spirit, please be aware that your unbelief will not cause the end of His existence. The pride of your ego does not allow you to admit that you are not in control of your life, but He has everything in control.",
+    "heroVerse1": "The fool  says in his heart, “There is no God.",
+    "heroRef1": "Psalms 14:1",
+    "heroText2": "So give yourself a chance and read on.",
+
+    "heroText3": "God exists! Creation itself testifies to Him. ",
+    "heroVerse3": "For what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities, His eternal power and divine nature, have been clearly seen, being understood from His workmanship, so that men are without excuse.",
+    "heroRef3": "Romans 1:19-20",
+
+    "heroText4": "God is love and that motivated Him to create people, including you, to have a personal relationship with you. However, with the fall of man in paradise, we inherit a sinful nature that prevents this relationship.",
+    "heroVerse4": "For all have sinned and fall short of the glory of God.",
+    "heroRef4": "Romans 3:23",
+    "heroVerse5": "If we say we have no sin, we deceive ourselves, and the truth is not in us.",
+    "heroRef5": "First John 1:8",
+
+    "heroText6": "God loves you so much that He let His Son be sacrificed for your sins because",
+    "heroVerse6": "without the shedding of blood there is no forgiveness. ",
+    "heroRef6": "Hebrews 9:22",
+    "heroVerse7": "For God so loved the world that He gave His one and only  Son, that everyone who believes in Him shall not perish but have eternal life. ",
+    "heroRef7": "John 3:16"
+  }
+}
