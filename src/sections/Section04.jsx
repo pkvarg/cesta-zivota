@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import Translation from '../Data.json'
 import Slider from '../components/Slider'
 
-const Section04 = () => {
+const Section04 = ({ language }) => {
+  const [content, setContent] = useState({})
+
+  useEffect(() => {
+    if (language === 'slovak') {
+      setContent(Translation.slovak)
+    } else {
+      setContent(Translation.english)
+    }
+  })
+
   return (
     <div className='section4'>
       <h3 className='text-[22.5px] lg:text-[25px] pt-[75px] text-center mx-[5%] lg:mx-0'>
-        Viac sa dočítaš v tejto knihe.
+        {content.s4Text1}
+        {/* Viac sa dočítaš v tejto knihe. */}
       </h3>
       <div className='lg:mx-[25px] p-[50px] flex flex-col lg:flex-row items-center'>
         {/* <img
@@ -16,7 +28,8 @@ const Section04 = () => {
         <Slider />
       </div>
       <h3 className='text-[20px] lg:text-[22.5px] text-center'>
-        Vytlačenú bezplatnú knihu si pýtaj u mňa na cestazivota@cestazivota.sk
+        {content.s4Text2}
+        {/* Vytlačenú bezplatnú knihu si pýtaj u mňa na cestazivota@cestazivota.sk */}
       </h3>
     </div>
   )

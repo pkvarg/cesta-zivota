@@ -43,8 +43,8 @@ const Home = () => {
       <Section01 language={language} />
       <Section02 language={language} />
       <Section03 language={language} />
-      <Section04 />
-      <Section05 />
+      <Section04 language={language} />
+      <Section05 language={language} />
       <CookieConsent
         location='bottom'
         style={{
