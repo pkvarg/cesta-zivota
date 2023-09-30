@@ -60,14 +60,14 @@ const Home = () => {
           padding: '7px',
           // borderRadius: '25px',
         }}
-        buttonText='Pokračovať'
+        buttonText={content.cookiesButton}
         expires={365}
         onAccept={() => {
           setCookieAccept(true)
           increaseVisitorsCount()
         }}
       >
-        Táto stránka nezhromažďuje žiadne údaje
+        {content.cookiesText}
       </CookieConsent>
     </>
   )
