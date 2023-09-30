@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Translation from '../Data.json'
 import Slider from '../components/Slider'
+import SliderEn from '../components/SliderEn'
 
 const Section04 = ({ language }) => {
   const [content, setContent] = useState({})
@@ -25,7 +26,7 @@ const Section04 = ({ language }) => {
           src='/IMG_01.webp'
           alt='book-title'
         /> */}
-        <Slider />
+        {language === 'slovak' ? <Slider /> : <SliderEn />}
       </div>
       <h3 className='text-[20px] lg:text-[22.5px] text-center'>
         {content.s4Text2}
