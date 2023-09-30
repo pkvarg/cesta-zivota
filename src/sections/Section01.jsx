@@ -16,7 +16,7 @@ const Section01 = ({ language }) => {
   return (
     <div className='hero px-[5%]'>
       <LanguageBar />
-      <div className='text-[30px] lg:text-[40px] text-center pt-[5%]'>
+      <div className='text-[30px] lg:text-[40px] text-center pt-[12%] lg:pt-[5%]'>
         <h1 className='textgradient'>
           {content.heroTitle}
           {/* Uver pravde, buď oslobodený od hriechu a získaj večný život! */}
