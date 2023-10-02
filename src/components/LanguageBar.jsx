@@ -12,7 +12,7 @@ const LanguageBar = () => {
     <div className='absolute top-2 right-8 lg:right-20 flex flex-row gap-3 items-center translate-y-[7.5%]'>
       <button onClick={() => handleLanguage('english')}>
         <img
-          className='w-[3rem] md:w-[14rem] lg:w-[2rem]'
+          className='w-[3rem] md:w-[4rem] lg:w-[2rem]'
           src='/english.webp'
           alt='english'
         />
@@ -20,11 +20,21 @@ const LanguageBar = () => {
 
       <button onClick={() => handleLanguage('slovak')}>
         <img
-          className='w-[3rem] md:w-[14rem] lg:w-[2rem]'
+          className='w-[3rem] md:w-[4rem] lg:w-[2rem]'
           src='/slovak.webp'
           alt='slovak'
         />
       </button>
+
+      <p className='text-white'>Czech</p>
+
+      {/* <button onClick={() => handleLanguage('czech')}>
+        <img
+          className='w-[3rem] md:w-[4rem] lg:w-[2rem]'
+          src='/czech.webp'
+          alt='czech'
+        />
+      </button> */}
     </div>
   )
 }

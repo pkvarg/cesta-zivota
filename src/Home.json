@@ -48,7 +48,7 @@
     "s3Text4": "Kajaj sa zo svojich hriechov a úprimne zo srdca ústami vyznaj: “Nebeský Otče, ďakujem Ti, že si poslal Svojho Syna, aby niesol trest za moje hriechy. Verím, že Ježiš zomrel na kríži a tretí deň vstal z mŕtvych a žije. Vzdávam sa doterajšieho hriešneho spôsobu života. Prosím, odpusť mi všetky hriechy skrze krv Ježiša Krista. Ďakujem Ti, že si ma očistil. Ježišu, vyznávam Ťa ako môjho Pána a Spasiteľa. Prosím, meň moje srdce a formuj môj charakter. Amen.”",
 
     "s4Text1": "Viac sa dočítaš v tejto knihe.",
-    "s4Text2": "Vytlačenú bezplatnú knihu si pýtaj u mňa na cestazivota@cestazivota.sk",
+    "s4Text2": "Vytlačenú bezplatnú knihu si pýtaj u mňa",
 
     "s5Text1": "Daj sa pokrstiť v mene Ježiša Krista na odpustenie hriechov, začni sa každodenne modliť",
     "s5Anchor1": "vlastnými slovami,",
@@ -73,7 +73,21 @@
     "s5Text10": "Prajem ti, aby si uveril pravde, ktorou je Božie Slovo a získal tak späť postavenie, ktoré ti patrí.",
 
     "cookiesText": "Táto stránka nezhromažďuje žiadne údaje",
-    "cookiesButton": "Pokračovať"
+    "cookiesButton": "Pokračovať",
+
+    "back": "Naspäť",
+
+    "contactTitle": "Kontakt",
+    "contactName": "Meno",
+    "contactEmail": "Email",
+    "contactSubject": "Predmet",
+    "contactPhone": "Telefón",
+    "contactMessage": "Správa",
+    "contactAgree": "Súhlasím so spracovaním údajov",
+    "contactSend": "Poslať",
+    "contactError": "Neodoslané! Napíšte nám na cestazivota@cestazivota.sk, prosím.",
+    "contactError2": "Chyba! Napíšte nám na cestazivota@cestazivota.sk, prosím.",
+    "contactSuccess": "Vaša správa bola úspešne odoslaná!"
   },
 
   "english": {
@@ -125,7 +139,7 @@
     "s3Text4": "Repent of your sins and confess sincerely from your heart with your mouth: 'Heavenly Father, I thank You for sending Your Son to bear the punishment for my sins. I believe that Jesus died on the cross and rose from the dead on the third day and is alive. I give up my previous sinful way of life. Please forgive me of all my sins through the blood of Jesus Christ. Thank you for cleansing me. Jesus, I confess you as my Lord and Savior. Please change my heart and shape my character. Amen.'",
 
     "s4Text1": "You can read more in this book",
-    "s4Text2": "Ask me for a printed free book at cestazivota@cestazivota.sk",
+    "s4Text2": "Ask me for a printed free book",
 
     "s5Text1": "Get baptized in the name of Jesus Christ for the forgiveness of sins, start praying daily",
     "s5Anchor1": "in your own words,",
@@ -150,6 +164,20 @@
     "s5Text10": "I wish you to believe the truth, which is God's Word, and thus regain the position that belongs to you.",
 
     "cookiesText": "This site does not collect any information",
-    "cookiesButton": "Continue"
+    "cookiesButton": "Continue",
+
+    "back": "Back",
+
+    "contactTitle": "Send us a message",
+    "contactName": "Name",
+    "contactSubject": "Subject",
+    "contactEmail": "Email",
+    "contactPhone": "Phone",
+    "contactMessage": "Your message",
+    "contactAgree": "I agree to process my data",
+    "contactSend": "Send",
+    "contactError": "Not sent! Contact us via cestazivota@cestazivota.sk, please.",
+    "contactError2": "Error! Write to cestazivota@cestazivota.sk, please.",
+    "contactSuccess": "Message successfully sent!"
   }
 }

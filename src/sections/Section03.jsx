@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Translation from '../Data.json'
+import Translation from '../Home.json'
 
 const Section03 = ({ language }) => {
   const [content, setContent] = useState({})
@@ -7,8 +7,10 @@ const Section03 = ({ language }) => {
   useEffect(() => {
     if (language === 'slovak') {
       setContent(Translation.slovak)
-    } else {
+    } else if (language === 'english') {
       setContent(Translation.english)
+    } else if (language === 'czech') {
+      setContent(Translation.czech)
     }
   })
 

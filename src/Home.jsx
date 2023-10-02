@@ -6,7 +6,7 @@ import Section04 from './sections/Section04'
 import Section05 from './sections/Section05'
 import CookieConsent from 'react-cookie-consent'
 import axios from 'axios'
-import Translation from './Data.json'
+import Translation from './Home.json'
 import { useStateContext } from './context/StateContext'
 
 const Home = () => {
@@ -18,8 +18,10 @@ const Home = () => {
   useEffect(() => {
     if (language === 'slovak') {
       setContent(Translation.slovak)
-    } else {
+    } else if (language === 'english') {
       setContent(Translation.english)
+    } else if (language === 'czech') {
+      setContent(Translation.czech)
     }
   })
 

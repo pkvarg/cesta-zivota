@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Translation from '../Data.json'
+import Translation from '../Home.json'
 import YouTube from '../components/YouTube'
 
 const Section02 = ({ language }) => {
@@ -8,8 +8,10 @@ const Section02 = ({ language }) => {
   useEffect(() => {
     if (language === 'slovak') {
       setContent(Translation.slovak)
-    } else {
+    } else if (language === 'english') {
       setContent(Translation.english)
+    } else if (language === 'czech') {
+      setContent(Translation.czech)
     }
   })
 

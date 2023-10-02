@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Translation from '../Data.json'
+import Translation from '../Home.json'
 import Footer from '../components/Footer'
 import SliderTract from '../components/SliderTract'
 import SliderTractEn from '../components/SliderTractEn'
@@ -10,8 +10,10 @@ const Section05 = ({ language }) => {
   useEffect(() => {
     if (language === 'slovak') {
       setContent(Translation.slovak)
-    } else {
+    } else if (language === 'english') {
       setContent(Translation.english)
+    } else if (language === 'czech') {
+      setContent(Translation.czech)
     }
   })
 

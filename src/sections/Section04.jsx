@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Translation from '../Data.json'
+import Translation from '../Home.json'
 import Slider from '../components/Slider'
 import SliderEn from '../components/SliderEn'
 
@@ -9,8 +9,10 @@ const Section04 = ({ language }) => {
   useEffect(() => {
     if (language === 'slovak') {
       setContent(Translation.slovak)
-    } else {
+    } else if (language === 'english') {
       setContent(Translation.english)
+    } else if (language === 'czech') {
+      setContent(Translation.czech)
     }
   })
 
@@ -29,7 +31,9 @@ const Section04 = ({ language }) => {
         {language === 'slovak' ? <Slider /> : <SliderEn />}
       </div>
       <h3 className='text-[20px] lg:text-[22.5px] text-center'>
-        {content.s4Text2}
+        <a className='underline' href='/contact'>
+          {content.s4Text2}
+        </a>
         {/* Vytlačenú bezplatnú knihu si pýtaj u mňa na cestazivota@cestazivota.sk */}
       </h3>
     </div>

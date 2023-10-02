@@ -3,6 +3,7 @@ const Context = createContext()
 
 export const StateContext = ({ children }) => {
   const [language, setLanguage] = useState('slovak')
+  const [botsCount, setBotsCount] = useState(0)
 
   useEffect(() => {
     const LocalStorageLanguage = window.localStorage.getItem('language')
@@ -16,7 +17,7 @@ export const StateContext = ({ children }) => {
 
   return (
     <Context.Provider
-      value={{ language, setLanguage }}
+      value={{ language, setLanguage, botsCount, setBotsCount }}
     >
       {children}
     </Context.Provider>

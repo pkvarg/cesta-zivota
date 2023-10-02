@@ -104,6 +104,12 @@ body {
   color: #fff;
   /* border: 2px solid #d57703; */
 }
+
+.form-control {
+  background-color: transparent;
+  border: 1px solid white;
+  padding-left: 10px;
+}
 @keyframes movebtn {
   0% {
     transform: translateY(0px);
