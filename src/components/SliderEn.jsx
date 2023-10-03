@@ -158,7 +158,7 @@ const SliderEn = () => {
           <p
             className={`flex text-[18px] lg:text-[22.5px] absolute top-[102%] lg:top-0 lg:right-[2%] ${progress}`}
           >
-            <strong>{currentIndex + 1} / 38</strong>
+            <strong>{currentIndex + 1} / 37</strong>
           </p>
           {size !== 'w-[100%] lg:w-[65%]' && (
             <button

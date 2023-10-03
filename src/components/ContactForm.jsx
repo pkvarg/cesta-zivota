@@ -17,7 +17,8 @@ const ContactForm = ({ language }) => {
     } else if (language === 'czech') {
       setContent(Translation.czech)
     }
-  })
+  }, [language])
+
   const [message, setMessage] = useState(null)
   const [messageSuccess, setMessageSuccess] = useState(null)
   const [name, setName] = useState('')
@@ -101,10 +102,6 @@ const ContactForm = ({ language }) => {
 
   return (
     <div className='pt-16 lg:pt-40 pb-10 '>
-      <a className='underline' href='/'>
-        {content.back}
-      </a>
-
       <h1
         id='contact'
         className='text-[35px] lg:text-[35px] text-white text-center lg:pt-0 pt-[55px]'
@@ -220,7 +217,7 @@ const ContactForm = ({ language }) => {
                 onChange={(e) => setPasswordGroupTwo(e.target.value)}
               />
               <button
-                className='text-[25px] bg-violet lg:mt-20 mt-10 pt-3 rounded-xl border border-white hover:text-violet hover:bg-white'
+                className='text-[25px] bg-violet lg:mt-20 mt-10 rounded-xl border border-white hover:text-[#000000] hover:bg-white'
                 type='submit'
                 value='Send'
               >

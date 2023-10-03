@@ -26,7 +26,7 @@ const LanguageBar = () => {
         />
       </button>
 
-      <p className='text-white'>Czech</p>
+      {/* <p className='text-white'>Czech</p> */}
 
       {/* <button onClick={() => handleLanguage('czech')}>
         <img
