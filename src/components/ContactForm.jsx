@@ -101,10 +101,10 @@ const ContactForm = ({ language }) => {
   }
 
   return (
-    <div className='pt-16 lg:pt-40 pb-10 '>
+    <div className='pt-5 lg:pt-10 pb-10 '>
       <h1
         id='contact'
-        className='text-[35px] lg:text-[35px] text-white text-center lg:pt-0 pt-[55px]'
+        className='text-[25px] lg:text-[35px] text-white text-center lg:pt-0 pt-[55px]'
       >
         {content.contactTitle}
       </h1>
