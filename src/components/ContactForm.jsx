@@ -65,7 +65,7 @@ const ContactForm = ({ language }) => {
       setEmail('')
       setPhone('')
       setMailMessage('')
-      increaseBots()
+      // increaseBots()
 
       const element = document.getElementById('contact')
       element.scrollIntoView({ behavior: 'smooth' })
@@ -109,7 +109,7 @@ const ContactForm = ({ language }) => {
         {content.contactTitle}
       </h1>
       <div className='mx-4 md:mx-6 lg:mx-0 flex lg:flex-row flex-col lg:justify-center text-white lg:py-[100px] '>
-        <div className='pt-[50px] lg:pt-0 lg:pt-[0px] '>
+        <div className='pt-[50px] lg:pt-0'>
           {messageSuccess && (
             <Message variant='success'>{messageSuccess}</Message>
           )}

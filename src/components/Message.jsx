@@ -5,7 +5,7 @@ const Message = ({ variant, children }) => {
     <>
       {variant === 'danger' ? (
         <div
-          className='bg-message-red-100 border border-message-red-400 text-[35px] text-message-red px-4 pt-3 mb-2 rounded relative'
+          className='bg-message-red-100 border border-message-red-400 text-[35px] text-message-red px-4 mb-2 rounded relative'
           role='alert'
         >
           <strong className='font-bold'>{children}</strong>
