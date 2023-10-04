@@ -49,6 +49,14 @@ const Section04 = ({ language }) => {
             for a printed free book
           </p>
         )}
+        {language === 'czech' && (
+          <p>
+            Vytisknutou bezplatnou knihu si ptej u{' '}
+            <a className='underline' href='/contact'>
+              mne
+            </a>{' '}
+          </p>
+        )}
         {/* Vytlačenú bezplatnú knihu si pýtaj u mňa na cestazivota@cestazivota.sk */}
       </h3>
     </div>

@@ -3,6 +3,7 @@ import Translation from '../Home.json'
 import Footer from '../components/Footer'
 import SliderTract from '../components/SliderTract'
 import SliderTractEn from '../components/SliderTractEn'
+import SliderTractCz from '../components/SliderTractCz'
 
 const Section05 = ({ language }) => {
   const [content, setContent] = useState({})
@@ -24,7 +25,7 @@ const Section05 = ({ language }) => {
           {content.s5Text1}{' '}
           {/* Daj sa pokrstiť v mene Ježiša Krista na odpustenie hriechov, začni sa
           každodenne modliť{' '} */}
-          {language === 'slovak' ? (
+          {language === 'slovak' && (
             <a
               className='underline'
               href='https://www.rhemabooks.org/sk/free-christian-books/basic-elements-of-the-christian-life-2/'
@@ -33,7 +34,8 @@ const Section05 = ({ language }) => {
               {content.s5Anchor1}
               {/* vlastnými slovami */}
             </a>
-          ) : (
+          )}
+          {language === 'english' && (
             <a
               className='underline'
               href='https://www.rhemabooks.org/en/free-christian-books/basic-elements-of-the-christian-life-2/'
@@ -43,17 +45,42 @@ const Section05 = ({ language }) => {
               {/* vlastnými slovami */}
             </a>
           )}{' '}
+          {language === 'czech' && (
+            <a
+              className='underline'
+              href='https://www.rhemabooks.org/cs/free-christian-books/basic-elements-of-the-christian-life-2/'
+              target='_blank'
+            >
+              {content.s5Anchor1}
+              {/* vlastnými slovami */}
+            </a>
+          )}{' '}
           {content.s5Text2}{' '}
           {/* , aby si udržiaval živý vzťah s Bohom a čítať{' '} */}
-          {language === 'slovak' ? (
-            <a className='underline' href='https://biblia.sk' target='_blank'>
+          {language === 'slovak' && (
+            <a
+              className='underline'
+              href='https://www.bible.com/cs/bible/509/GEN.1.CSP'
+              target='_blank'
+            >
               {content.s5Anchor2}
               {/* Bibliu */}
             </a>
-          ) : (
+          )}
+          {language === 'english' && (
             <a
               className='underline'
               href='https://www.bible.com/bible/1588/JHN.1.AMP'
+              target='_blank'
+            >
+              {content.s5Anchor2}
+              {/* Bibliu */}
+            </a>
+          )}{' '}
+          {language === 'czech' && (
+            <a
+              className='underline'
+              href='https://www.bible.com/cs/bible/509/GEN.1.CSP'
               target='_blank'
             >
               {content.s5Anchor2}
@@ -82,7 +109,7 @@ const Section05 = ({ language }) => {
             {content.s5Ref1} {/* Prvý Jánov 2:4,15 */}
           </span>
           {content.s5Text5} {/* Viac v tejto audio knihe{' '} */}
-          {language === 'slovak' ? (
+          {language === 'slovak' && (
             <a
               className='underline'
               href='https://app.messengerx.com/sk-SK/listen/1DB0tFrLRez7blmTBmVSlZ/qo21vqS1ZFttSJR05ydGL_s3AudioAsset.mp3'
@@ -91,10 +118,21 @@ const Section05 = ({ language }) => {
               {content.s5Anchor3}
               {/* Ži s perspektívou večnosti */}
             </a>
-          ) : (
+          )}
+          {language === 'english' && (
             <a
               className='underline'
               href='https://app.messengerx.com/en-US/listen/1DB0tFrLRez7blmTBmVSlZ/2EmIAHWSQhehq3XvBHF7vs_s3AudioAsset.mp3'
+              target='_blank'
+            >
+              {content.s5Anchor3}
+              {/* Ži s perspektívou večnosti */}
+            </a>
+          )}
+          {language === 'czech' && (
+            <a
+              className='underline'
+              href='https://app.messengerx.com/cs-CZ/listen/1DB0tFrLRez7blmTBmVSlZ/5chmIMhcyC5HdnNKxBrB0v_s3AudioAsset.mp3'
               target='_blank'
             >
               {content.s5Anchor3}
@@ -118,7 +156,9 @@ const Section05 = ({ language }) => {
           </a>
           , 5. kapitola.
         </p> */}
-        {language === 'slovak' ? <SliderTract /> : <SliderTractEn />}
+        {language === 'slovak' && <SliderTract />}
+        {language === 'english' && <SliderTractEn />}
+        {language === 'czech' && <SliderTractCz />}
 
         <p>
           {' '}
@@ -140,10 +180,9 @@ const Section05 = ({ language }) => {
             {content.s5Anchor5}
             {/* svedkovia.sk. */}
           </a>{' '}
-          {content.s5Text9}
+          {content.s5Text9}{' '}
           {/* Je emocionálne uspokojenie cesta k pravému šťastiu človeka? Viac na{' '} */}
           <a href='https://duhovyrod.sk' target='_blank' className='underline'>
-            {' '}
             {content.s5Anchor6}
             {/* duhovyrod.sk. */}
           </a>

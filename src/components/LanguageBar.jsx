@@ -26,15 +26,13 @@ const LanguageBar = () => {
         />
       </button>
 
-      {/* <p className='text-white'>Czech</p> */}
-
-      {/* <button onClick={() => handleLanguage('czech')}>
+      <button onClick={() => handleLanguage('czech')}>
         <img
-          className='w-[3rem] md:w-[4rem] lg:w-[2rem]'
+          className='w-[3rem] md:w-[3rem] lg:w-[2rem]'
           src='/czech.webp'
           alt='czech'
         />
-      </button> */}
+      </button>
     </div>
   )
 }
