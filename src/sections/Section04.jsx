@@ -28,7 +28,11 @@ const Section04 = ({ language }) => {
           src='/IMG_01.webp'
           alt='book-title'
         /> */}
-        {language === 'slovak' ? <Slider /> : <SliderEn />}
+        {language === 'slovak' || language === 'czech' ? (
+          <Slider />
+        ) : (
+          <SliderEn />
+        )}
       </div>
       <h3 className='text-[20px] lg:text-[22.5px] text-center'>
         {language === 'slovak' && (
