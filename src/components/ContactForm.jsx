@@ -60,10 +60,10 @@ const ContactForm = ({ language }) => {
 
     if (passwordGroupOne !== x || passwordGroupTwo !== y) {
       setMessage(content.contactError)
-      setName('')
-      setSubject('')
+      // setName('')
+      // setSubject('')
       setEmail('')
-      setPhone('')
+      // setPhone('')
       setMailMessage('')
       // increaseBots()
 
@@ -90,10 +90,10 @@ const ContactForm = ({ language }) => {
           }
         )
 
-      setName('')
-      setSubject('')
+      // setName('')
+      // setSubject('')
       setEmail('')
-      setPhone('')
+      // setPhone('')
       setMailMessage('')
       const element = document.getElementById('contact')
       element.scrollIntoView({ behavior: 'smooth' })
@@ -101,14 +101,14 @@ const ContactForm = ({ language }) => {
   }
 
   return (
-    <div className='pt-5 lg:pt-10 pb-10 '>
+    <div className='pt-5 lg:pt-10 pb-10 h-[100vh] '>
       <h1
         id='contact'
-        className='text-[25px] lg:text-[35px] text-white text-center lg:pt-0 pt-[55px]'
+        className='text-[25px] lg:text-[35px] text-white text-center lg:pt-[5%] pt-[55px]'
       >
         {content.contactTitle}
       </h1>
-      <div className='mx-4 md:mx-6 lg:mx-0 flex lg:flex-row flex-col lg:justify-center text-white lg:py-[100px] '>
+      <div className='mx-4 md:mx-6 lg:mx-0 flex lg:flex-row flex-col lg:justify-center text-white lg:py-[50px] '>
         <div className='pt-[50px] lg:pt-0'>
           {messageSuccess && (
             <Message variant='success'>{messageSuccess}</Message>
@@ -120,59 +120,18 @@ const ContactForm = ({ language }) => {
               onSubmit={sendEmail}
               className='flex flex-col gap-[2.5px] text-[25px]'
             >
-              <div className='flex lg:flex-row flex-col gap-[25px]'>
-                <div className='flex flex-col justify-center '>
-                  <label className='form-label mt-[2.5%]'>
-                    {content.contactName} <sup>*</sup>
-                  </label>
-                  <input
-                    className='form-control rounded-xl'
-                    type='text'
-                    name='user_name'
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    required='required'
-                  />
-
-                  <label className='form-label mt-[2.5%]'>
-                    {content.contactEmail} <sup>*</sup>
-                  </label>
-                  <input
-                    className='form-control rounded-xl'
-                    type='email'
-                    name='user_email'
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required='required'
-                  />
-                </div>
-                <div className='flex flex-col justify-center '>
-                  <label className='form-label mt-[2.5%]'>
-                    {' '}
-                    {content.contactSubject}
-                  </label>
-                  <input
-                    className='form-control rounded-xl'
-                    type='text'
-                    name='user_subject'
-                    value={subject}
-                    onChange={(e) => setSubject(e.target.value)}
-                  />
-
-                  <label className='form-label mt-[2.5%]'>
-                    {' '}
-                    {content.contactPhone}
-                  </label>
-                  <input
-                    className='form-control rounded-xl'
-                    type='text'
-                    name='user_phone'
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
-                  />
-                </div>
-              </div>
-              <div className='flex flex-col'>
+              <div className='flex flex-col justify-center '>
+                <label className='form-label mt-[2.5%]'>
+                  {content.contactEmail} <sup>*</sup>
+                </label>
+                <input
+                  className='form-control  rounded-xl'
+                  type='email'
+                  name='user_email'
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required='required'
+                />
                 <label className='form-label mt-[2.5%]'>
                   {content.contactMessage} <sup>*</sup>
                 </label>
@@ -184,7 +143,8 @@ const ContactForm = ({ language }) => {
                   onChange={(e) => setMailMessage(e.target.value)}
                   required='required'
                 ></textarea>
-
+              </div>
+              <div className='flex flex-col'>
                 <div className='flex flex-row items-center form-check mt-8'>
                   <input
                     id='flexCheckDefault'
@@ -217,7 +177,7 @@ const ContactForm = ({ language }) => {
                 onChange={(e) => setPasswordGroupTwo(e.target.value)}
               />
               <button
-                className='text-[25px] bg-violet lg:mt-20 mt-10 rounded-xl border border-white hover:text-[#000000] hover:bg-white'
+                className='text-[25px] lg:mt-20 mt-10 rounded-xl border border-white hover:text-[#000000] hover:bg-white'
                 type='submit'
                 value='Send'
               >

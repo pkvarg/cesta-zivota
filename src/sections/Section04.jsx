@@ -31,9 +31,24 @@ const Section04 = ({ language }) => {
         {language === 'slovak' ? <Slider /> : <SliderEn />}
       </div>
       <h3 className='text-[20px] lg:text-[22.5px] text-center'>
-        <a className='underline' href='/contact'>
-          {content.s4Text2}
-        </a>
+        {language === 'slovak' && (
+          <p>
+            Vytlačenú bezplatnú knihu si pýtaj u{' '}
+            <a className='underline' href='/contact'>
+              mňa
+              {/* {content.s4Text2} */}
+            </a>
+          </p>
+        )}
+        {language === 'english' && (
+          <p>
+            Ask{' '}
+            <a className='underline' href='/contact'>
+              me
+            </a>{' '}
+            for a printed free book
+          </p>
+        )}
         {/* Vytlačenú bezplatnú knihu si pýtaj u mňa na cestazivota@cestazivota.sk */}
       </h3>
     </div>

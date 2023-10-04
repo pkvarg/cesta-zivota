@@ -12,7 +12,7 @@ const Message = ({ variant, children }) => {
         </div>
       ) : (
         <div
-          className='bg-message-green-100 border border-message-green-400 text-[35px] text-message-green px-4 pt-3 mb-2 rounded relative'
+          className='bg-message-green-100 border border-message-green-400 text-[35px] text-message-green px-4 mb-2 rounded relative'
           role='alert'
         >
           <strong className='font-bold'>{children}</strong>
