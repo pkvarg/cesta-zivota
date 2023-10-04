@@ -22,40 +22,7 @@ const Section05 = ({ language }) => {
     <div className='section5 text-[20px] lg:text-[22.5px] text-justify pt-[80px]'>
       <div className='mx-[5%]'>
         <p>
-          {content.s5Text1}{' '}
-          {/* Daj sa pokrstiť v mene Ježiša Krista na odpustenie hriechov, začni sa
-          každodenne modliť{' '} */}
-          {language === 'slovak' && (
-            <a
-              className='underline'
-              href='https://www.rhemabooks.org/sk/free-christian-books/basic-elements-of-the-christian-life-2/'
-              target='_blank'
-            >
-              {content.s5Anchor1}
-              {/* vlastnými slovami */}
-            </a>
-          )}
-          {language === 'english' && (
-            <a
-              className='underline'
-              href='https://www.rhemabooks.org/en/free-christian-books/basic-elements-of-the-christian-life-2/'
-              target='_blank'
-            >
-              {content.s5Anchor1}
-              {/* vlastnými slovami */}
-            </a>
-          )}{' '}
-          {language === 'czech' && (
-            <a
-              className='underline'
-              href='https://www.rhemabooks.org/cs/free-christian-books/basic-elements-of-the-christian-life-2/'
-              target='_blank'
-            >
-              {content.s5Anchor1}
-              {/* vlastnými slovami */}
-            </a>
-          )}{' '}
-          {content.s5Text2}{' '}
+          {content.s5Text1} {content.s5Anchor1} {content.s5Text2}{' '}
           {/* , aby si udržiaval živý vzťah s Bohom a čítať{' '} */}
           {language === 'slovak' && (
             <a
