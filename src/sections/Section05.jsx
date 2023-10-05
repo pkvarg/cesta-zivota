@@ -71,7 +71,7 @@ const Section05 = ({ language }) => {
             niet v ňom pravdy. Ak niekto miluje svet (žiadosť tela, žiadosť očí,
             pýchu života), nieto v ňom lásky k Otcovi.{' '} */}
           </span>
-          <span className='text-[17.5px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.s5Ref1} {/* Prvý Jánov 2:4,15 */}
           </span>

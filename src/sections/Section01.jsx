@@ -35,7 +35,7 @@ const Section01 = ({ language }) => {
             {content.heroVerse1}{' '}
             {/* Vo svojom srdci blázon hovorí: Niet Boha!{' '} */}
           </span>
-          <span className='text-[17.50px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.heroRef1} {/* Žalmy 14:1 */}
           </span>{' '}
@@ -54,7 +54,7 @@ const Section01 = ({ language }) => {
             stvorenia sveta rozjímaním môžu pozorovať z Jeho diel, takže nemajú
             ospravedlnenie. */}
           </span>{' '}
-          <span className='text-[17.50px]'>
+          <span className='text-[15px]'>
             {content.heroRef3}
             {/* Rimanom 1:19-20 */}
           </span>{' '}
@@ -71,7 +71,7 @@ const Section01 = ({ language }) => {
             {content.heroVerse4}
             {/* Všetci totiž zhrešili a nemajú slávy Božej. */}
           </span>
-          <span className='text-[17.50px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.heroRef4}
             {/* Rimanom 3:23 */}
@@ -82,7 +82,7 @@ const Section01 = ({ language }) => {
             {/* Ak hovoríme, že nemáme hriech, sami seba klameme a nie je v nás
             pravda. */}
           </span>{' '}
-          <span className='text-[17.50px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.heroRef5}
             {/* Prvý Jánov 1:8 */}
@@ -98,7 +98,7 @@ const Section01 = ({ language }) => {
             {content.heroVerse6}
             {/* bez vyliatia krvi niet odpustenia. */}
           </span>{' '}
-          <span className='text-[17.50px]'>
+          <span className='text-[15px]'>
             {content.heroRef6}
             {/* Hebrejom 9:22 */}
           </span>{' '}
@@ -107,7 +107,7 @@ const Section01 = ({ language }) => {
             {/* Lebo tak Boh miloval svet, že svojho jednorodeného Syna dal, aby
             nezahynul, ale večný život mal každý, kto verí v Neho. */}
           </span>{' '}
-          <span className='text-[17.50px]'>
+          <span className='text-[15px]'>
             {content.heroRef7}
             {/* Ján 3:16 */}
           </span>{' '}

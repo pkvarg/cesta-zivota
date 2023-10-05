@@ -26,7 +26,7 @@ const Section03 = ({ language }) => {
             {/* Kto však neposlúcha Syna, neuvidí život, ale hnev Boží zostáva na
             ňom. */}
           </span>{' '}
-          <span className='text-[17.5px]'>
+          <span className='text-[15px]'>
             {content.s3Ref1}
             {/* Ján 3:36 */}
           </span>{' '}
@@ -35,7 +35,7 @@ const Section03 = ({ language }) => {
             {/* Kto neverí, už je odsúdený, pretože neuveril v meno jednorodeného
             Syna Božieho. */}
           </span>{' '}
-          <span className='text-[17.5px]'>{content.s3Ref2}</span>
+          <span className='text-[15px]'>{content.s3Ref2}</span>
         </p>
       </div>
       <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
@@ -45,13 +45,13 @@ const Section03 = ({ language }) => {
           <span className='italic'>
             {content.s3Verse3}
             {/* Kto verí v Syna, má večný život. */}{' '}
-            <span className='text-[17.5px]'>
+            <span className='text-[15px]'>
               {content.s3Ref3} {/* Ján 3:36 */}
             </span>
             {content.s3Verse4}
             {/* Kto verí v Neho,
             nebude súdený.  */}
-            <span className='text-[17.5px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.s3Ref4} {/* Ján 3:18 */}
             </span>
@@ -62,7 +62,7 @@ const Section03 = ({ language }) => {
             {/* Ak ústami vyznávaš Pána Ježiša a v srdci veríš, že Ho Boh vzkriesil
             z mŕtvych, budeš spasený; lebo srdcom veríme na spravodlivosť a
             ústami vyznávame na spasenie. */}{' '}
-            <span className='text-[17.5px]'>
+            <span className='text-[15px]'>
               {content.s3Ref5}
               {/* Rimanom 10:9-10 */}
             </span>
@@ -80,7 +80,7 @@ const Section03 = ({ language }) => {
             smrti bezbožného, ale v tom, že sa bezbožný odvráti od svojho
             spôsobu života a bude žiť. */}{' '}
           </span>
-          <span className='text-[17.5px] italic'>
+          <span className='text-[15px] italic'>
             {content.s3Ref6}
             {/* Ezechiel 33:11 */}
           </span>
