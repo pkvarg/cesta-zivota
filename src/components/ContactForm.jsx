@@ -5,7 +5,7 @@ import Translation from '../Home.json'
 import { useStateContext } from '../context/StateContext'
 import axios from 'axios'
 
-const ContactForm = ({ language }) => {
+const ContactForm = ({ language, setShowContact }) => {
   const { botsCount, setBotsCount } = useStateContext()
   const [content, setContent] = useState({})
 
@@ -102,12 +102,15 @@ const ContactForm = ({ language }) => {
 
   return (
     <div className='pt-5 lg:pt-10 pb-10 h-[100vh] '>
-      <h1
+      <button className='ml-auto' onClick={() => setShowContact(false)}>
+        X
+      </button>
+      {/* <h1
         id='contact'
         className='text-[25px] lg:text-[35px] text-white text-center lg:pt-[5%] pt-[55px]'
       >
         {content.contactTitle}
-      </h1>
+      </h1> */}
       <div className='mx-4 md:mx-6 lg:mx-0 flex lg:flex-row flex-col lg:justify-center text-white lg:py-[50px] '>
         <div className='pt-[50px] lg:pt-0'>
           {messageSuccess && (

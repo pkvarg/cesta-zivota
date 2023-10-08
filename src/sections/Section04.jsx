@@ -2,9 +2,12 @@ import React, { useState, useEffect } from 'react'
 import Translation from '../Home.json'
 import Slider from '../components/Slider'
 import SliderEn from '../components/SliderEn'
+import ContactForm from '../components/ContactForm'
 
 const Section04 = ({ language }) => {
   const [content, setContent] = useState({})
+  const [showContact, setShowContact] = useState(false)
+  console.log(showContact)
 
   useEffect(() => {
     if (language === 'slovak') {
@@ -56,10 +59,13 @@ const Section04 = ({ language }) => {
         {language === 'czech' && (
           <p>
             Vytisknutou bezplatnou knihu si ptej u{' '}
-            <a className='underline' href='/contact'>
+            <button className='underline' onClick={() => setShowContact(true)}>
               mne
-            </a>{' '}
+            </button>{' '}
           </p>
+        )}
+        {showContact && (
+          <ContactForm language={language} setShowContact={setShowContact} />
         )}
         {/* Vytlačenú bezplatnú knihu si pýtaj u mňa na cestazivota@cestazivota.sk */}
       </h3>
