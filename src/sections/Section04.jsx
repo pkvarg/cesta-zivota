@@ -19,6 +19,10 @@ const Section04 = ({ language }) => {
     }
   })
 
+  const toggleShowContact = () => {
+    setShowContact((prev) => !prev)
+  }
+
   return (
     <div className='section4'>
       <h3 className='text-[22.5px] lg:text-[25px] pt-[75px] text-center mx-[5%] lg:mx-0'>
@@ -41,25 +45,25 @@ const Section04 = ({ language }) => {
         {language === 'slovak' && (
           <p>
             Vytlačenú bezplatnú knihu si pýtaj u{' '}
-            <a className='underline' href='/contact'>
+            <button className='underline' onClick={() => toggleShowContact()}>
               mňa
               {/* {content.s4Text2} */}
-            </a>
+            </button>
           </p>
         )}
         {language === 'english' && (
           <p>
             Ask{' '}
-            <a className='underline' href='/contact'>
+            <button className='underline' onClick={() => toggleShowContact()}>
               me
-            </a>{' '}
+            </button>{' '}
             for a printed free book
           </p>
         )}
         {language === 'czech' && (
           <p>
             Vytisknutou bezplatnou knihu si ptej u{' '}
-            <button className='underline' onClick={() => setShowContact(true)}>
+            <button className='underline' onClick={() => toggleShowContact()}>
               mne
             </button>{' '}
           </p>

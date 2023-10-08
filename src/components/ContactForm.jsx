@@ -55,6 +55,10 @@ const ContactForm = ({ language, setShowContact }) => {
     console.log('ctc:', data)
   }
 
+  const closeContact = () => {
+    setShowContact(false)
+  }
+
   const sendEmail = (e) => {
     e.preventDefault()
 
@@ -81,12 +85,14 @@ const ContactForm = ({ language, setShowContact }) => {
           (result) => {
             console.log(result.text)
             setMessageSuccess(content.contactSuccess)
+            setTimeout(closeContact, 9000)
 
             console.log('message sent')
           },
           (error) => {
             console.log(error.text)
             setMessageSuccess(content.contactError2)
+            setTimeout(closeContact, 9000)
           }
         )
 
@@ -98,20 +104,24 @@ const ContactForm = ({ language, setShowContact }) => {
       const element = document.getElementById('contact')
       element.scrollIntoView({ behavior: 'smooth' })
     }
+    // } else {
+    //   console.log('sending...')
+    //   setMessage('Whatever')
+    //   const element = document.getElementById('contact')
+    //   element.scrollIntoView({ behavior: 'smooth' })
+    //   setTimeout(closeContact, 9000)
+    // }
   }
 
   return (
-    <div className='pt-5 lg:pt-10 pb-10 h-[100vh] '>
-      <button className='ml-auto' onClick={() => setShowContact(false)}>
-        X
-      </button>
-      {/* <h1
-        id='contact'
-        className='text-[25px] lg:text-[35px] text-white text-center lg:pt-[5%] pt-[55px]'
+    <div className='relative pt-5 lg:pt-10' id='contact'>
+      {/* <button
+        className='absolute top-[7.5%] text-[27.5px] lg:right-[37.5%]'
+        onClick={() => setShowContact(false)}
       >
-        {content.contactTitle}
-      </h1> */}
-      <div className='mx-4 md:mx-6 lg:mx-0 flex lg:flex-row flex-col lg:justify-center text-white lg:py-[50px] '>
+        X
+      </button> */}
+      <div className='mx-4 md:mx-6 lg:mx-0 flex lg:flex-row flex-col lg:justify-center text-white lg:py-[50px]'>
         <div className='pt-[50px] lg:pt-0'>
           {messageSuccess && (
             <Message variant='success'>{messageSuccess}</Message>
@@ -121,22 +131,22 @@ const ContactForm = ({ language, setShowContact }) => {
             <form
               ref={form}
               onSubmit={sendEmail}
-              className='flex flex-col gap-[2.5px] text-[25px]'
+              className='flex flex-col gap-[2.5px] text-[22.5px]'
             >
-              <div className='flex flex-col justify-center '>
-                <label className='form-label mt-[2.5%]'>
-                  {content.contactEmail} <sup>*</sup>
+              <div className='flex flex-col justify-center'>
+                <label className='form-label my-[2.5%] text-left'>
+                  {content.contactEmail}
                 </label>
                 <input
-                  className='form-control  rounded-xl'
+                  className='form-control rounded-xl'
                   type='email'
                   name='user_email'
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required='required'
                 />
-                <label className='form-label mt-[2.5%]'>
-                  {content.contactMessage} <sup>*</sup>
+                <label className='form-label my-[2.5%] text-left'>
+                  {content.contactMessage}
                 </label>
                 <textarea
                   className='form-control rounded-xl'
@@ -160,10 +170,13 @@ const ContactForm = ({ language, setShowContact }) => {
                   />
 
                   <label
-                    className='form-check-label lg:text-[30px] text-[25px] ml-[15px]'
+                    className='form-check-label text-left  text-[22.5] lg:text-[20px] ml-[15px]'
                     htmlFor='flexCheckDefault'
                   >
-                    {content.contactAgree}
+                    {content.contactAgree}{' '}
+                    <a className='underline' href='/gdpr'>
+                      {content.contactGdpr}
+                    </a>
                   </label>
                 </div>
               </div>
@@ -180,7 +193,7 @@ const ContactForm = ({ language, setShowContact }) => {
                 onChange={(e) => setPasswordGroupTwo(e.target.value)}
               />
               <button
-                className='text-[25px] lg:mt-20 mt-10 rounded-xl border border-white hover:text-[#000000] hover:bg-white'
+                className='text-[25px] lg:text-[22.5px] lg:w-[33%] lg:ml-[auto] lg:mr-[auto] mt-10 rounded-xl border border-white hover:text-[#000000] hover:bg-white'
                 type='submit'
                 value='Send'
               >
