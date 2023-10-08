@@ -89,7 +89,10 @@
     "contactSend": "Poslať",
     "contactError": "Neodoslané! Napíšte nám na cestazivota@cestazivota.sk, prosím.",
     "contactError2": "Chyba! Napíšte nám na cestazivota@cestazivota.sk, prosím.",
-    "contactSuccess": "Vaša správa bola úspešne odoslaná!"
+    "contactSuccess": "Vaša správa bola úspešne odoslaná!",
+
+    "gdpr1": "Vami poskytnuté údaje (email) neukladáme v žiadnej databáze.",
+    "gdpr2": "Email bude použitý len na odpoveď na Vašu správu."
   },
 
   "english": {
@@ -182,7 +185,10 @@
     "contactSend": "Send",
     "contactError": "Not sent! Contact us via cestazivota@cestazivota.sk, please.",
     "contactError2": "Error! Write to cestazivota@cestazivota.sk, please.",
-    "contactSuccess": "Message successfully sent!"
+    "contactSuccess": "Message successfully sent!",
+
+    "gdpr1": "We do not store the data provided by you (email) in any database.",
+    "gdpr2": "The email will only be used to respond to your message."
   },
 
   "czech": {
@@ -272,6 +278,9 @@
     "contactSend": "Poslat",
     "contactError": "Neodeslaný! Napište nám na cestazivota@cestazivota.sk., prosím.",
     "contactError2": "Chyba! Napište nám na cestazivota@cestazivota.sk, prosím.",
-    "contactSuccess": "Vaše zpráva byla úspěšně odeslána!"
+    "contactSuccess": "Vaše zpráva byla úspěšně odeslána!",
+
+    "gdpr1": "Vámi poskytnuté údaje (e-mail) neukládáme do žádné databáze.",
+    "gdpr2": "Email bude použit pouze pro odpověď na Vaši zprávu."
   }
 }

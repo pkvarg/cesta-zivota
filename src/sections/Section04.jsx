@@ -7,7 +7,6 @@ import ContactForm from '../components/ContactForm'
 const Section04 = ({ language }) => {
   const [content, setContent] = useState({})
   const [showContact, setShowContact] = useState(false)
-  console.log(showContact)
 
   useEffect(() => {
     if (language === 'slovak') {
