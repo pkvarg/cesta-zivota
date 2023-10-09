@@ -4,7 +4,6 @@ import Home from './Home'
 import Counter from './Counter'
 import ScrollToTop from './components/ScrollToTop'
 import { StateContext } from './context/StateContext'
-import Gdpr from './gdpr'
 
 import Section01 from './sections/Section01'
 import Section02 from './sections/Section02'
@@ -18,7 +17,6 @@ function App() {
       <StateContext>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/gdpr' element={<Gdpr />} />
           <Route path='/counter' element={<Counter />} />
         </Routes>
         <ScrollToTop />
