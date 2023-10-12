@@ -174,7 +174,7 @@ const ContactForm = ({ language, setShowContact }) => {
                         {content.contactGdpr}{' '}
                       </button>
                       {showGdpr && (
-                        <p className='w-[300px] lg:w-[300px] text-[20px] text-left'>
+                        <p className='w-[300px] lg:w-[330px] text-[20px] text-left'>
                           {content.gdpr1} <br /> {content.gdpr2}
                         </p>
                       )}
