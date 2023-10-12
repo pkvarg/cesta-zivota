@@ -3,7 +3,6 @@ import emailjs from '@emailjs/browser'
 import Message from '../components/Message'
 import Translation from '../Home.json'
 import { useStateContext } from '../context/StateContext'
-import Gdpr from './Gdpr'
 import axios from 'axios'
 
 const ContactForm = ({ language, setShowContact }) => {
@@ -172,8 +171,11 @@ const ContactForm = ({ language, setShowContact }) => {
                         className='underline'
                         onClick={(e) => toggleShowGdpr(e)}
                       >
-                        {content.contactGdpr}
+                        {content.contactGdpr}{' '}
                       </button>
+                      <p className='w-[300px] lg:w-[400px] text-[20px]'>
+                        {showGdpr && content.gdpr1}
+                      </p>
                     </label>
                   </div>
                 </div>
@@ -201,7 +203,7 @@ const ContactForm = ({ language, setShowContact }) => {
           </div>
         </div>
       </div>
-      {showGdpr && <Gdpr language={language} content={content} />}
+      {/* {showGdpr && <Gdpr language={language} content={content} />} */}
     </>
   )
 }
