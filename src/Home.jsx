@@ -33,7 +33,7 @@ const Home = () => {
 
   const increaseVisitorsCount = async () => {
     const { data } = await axios.put(
-      `https://pictusweb.online/api/visitors/cesta/increase`,
+      `https://api.pictusweb.com/api/visitors/cesta/increase`,
       // `http://localhost:2000/api/visitors/cesta/increase`,
       config
     )
