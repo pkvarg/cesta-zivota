@@ -95,6 +95,7 @@ const Section01 = ({ language }) => {
           {/* Boh ťa tak veľmi miluje, že Svojho Syna nechal obetovať za tvoje
           hriechy, pretože */}{' '}
           <span className='italic'>
+            {' '}
             {content.heroVerse6}
             {/* bez vyliatia krvi niet odpustenia. */}
           </span>{' '}

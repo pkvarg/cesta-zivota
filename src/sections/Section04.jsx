@@ -26,7 +26,7 @@ const Section04 = ({ language }) => {
     <div className='section4'>
       <h3 className='text-[22.5px] lg:text-[25px] pt-[75px] text-center mx-[5%] lg:mx-0'>
         {content.s4Text1}
-        {/* Viac sa dočítaš v tejto knihe. */}
+        {/* Viac sa dočítaš v tejto knihe */}
       </h3>
       <div className='lg:mx-[25px] p-[50px] flex flex-col lg:flex-row items-center'>
         {/* <img
@@ -63,7 +63,7 @@ const Section04 = ({ language }) => {
           <p>
             Vytisknutou bezplatnou knihu si ptej u{' '}
             <button className='underline' onClick={() => toggleShowContact()}>
-              mne
+              mě
             </button>{' '}
           </p>
         )}

@@ -66,6 +66,7 @@ const Section05 = ({ language }) => {
           nespasí! Pánom ti je ten, koho poslúchaš. */}
           <span className='italic'>
             {' '}
+            <br />
             {content.s5Verse1}{' '}
             {/* Kto hovorí: Poznám Ho, ale nezachováva Jeho prikázania, je klamár a
             niet v ňom pravdy. Ak niekto miluje svet (žiadosť tela, žiadosť očí,
@@ -148,7 +149,7 @@ const Section05 = ({ language }) => {
             {/* svedkovia.sk. */}
           </a>{' '}
           {content.s5Text9}{' '}
-          {/* Je emocionálne uspokojenie cesta k pravému šťastiu človeka? Viac na{' '} */}
+          {/* Je emocionálne uspokojenie cesta k pravému šťastiu človeka? Viac na{' '} */}{' '}
           <a href='https://duhovyrod.sk' target='_blank' className='underline'>
             {content.s5Anchor6}
             {/* duhovyrod.sk. */}
