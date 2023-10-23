@@ -64,9 +64,11 @@ const Section05 = ({ language }) => {
           bez osobného vzťahu s Ježišom a bez poslušnosti Božiemu Slovu je
           pokrytectvom. Takú falošnú vieru Boh neprijme a odsúdi. Mŕtva viera ťa
           nespasí! Pánom ti je ten, koho poslúchaš. */}
+        </p>
+        <p className='mt-2'>
+          {content.s5Text4a}
           <span className='italic'>
             {' '}
-            <br />
             {content.s5Verse1}{' '}
             {/* Kto hovorí: Poznám Ho, ale nezachováva Jeho prikázania, je klamár a
             niet v ňom pravdy. Ak niekto miluje svet (žiadosť tela, žiadosť očí,
