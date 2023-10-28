@@ -6,10 +6,10 @@ const Footer = ({ language }) => {
       <div className='flex flex-col lg:flex-row justify-center gap-0 lg:gap-2 pt-4 mb-8'>
         {language === 'slovak' || language === 'czech' ? (
           <>
-            <a href='https://hladamboha.sk' target='_blank'>
+            {/* <a href='https://hladamboha.sk' target='_blank'>
               hladamboha.sk
-            </a>{' '}
-            <span className='hidden lg:block'>|</span>
+            </a>{' '} */}
+            {/* <span className='hidden lg:block'>|</span> */}
             <a href='https://fireproduction.sk' target='_blank'>
               fireproduction.sk
             </a>{' '}

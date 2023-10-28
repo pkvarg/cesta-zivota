@@ -23,37 +23,37 @@ const Section05 = ({ language }) => {
       <div className='mx-[5%]'>
         <p>
           {content.s5Text1} {content.s5Anchor1} {content.s5Text2}{' '}
+          {content.s5Anchor2}{' '}
           {/* , aby si udržiaval živý vzťah s Bohom a čítať{' '} */}
-          {language === 'slovak' && (
+          {/* {language === 'slovak' && (
             <a
               className='underline'
               href='https://www.bible.com/cs/bible/509/GEN.1.CSP'
               target='_blank'
             >
               {content.s5Anchor2}
-              {/* Bibliu */}
+             
             </a>
-          )}
-          {language === 'english' && (
+            
+          )} */}
+          {/* {language === 'english' && (
             <a
               className='underline'
               href='https://www.bible.com/bible/1588/JHN.1.AMP'
               target='_blank'
             >
               {content.s5Anchor2}
-              {/* Bibliu */}
             </a>
-          )}{' '}
-          {language === 'czech' && (
+          )}{' '} */}
+          {/* {language === 'czech' && (
             <a
               className='underline'
               href='https://www.bible.com/cs/bible/509/GEN.1.CSP'
               target='_blank'
             >
               {content.s5Anchor2}
-              {/* Bibliu */}
             </a>
-          )}{' '}
+          )}{' '} */}
           {content.s5Text3}
           {/* , aby si bol plný Jeho Slova a podľa Neho žil. A pravidelne navštevuj
           nejaké spoločenstvo, kde oslavujú Boha Otca, Ježiša a Svätého Ducha. */}
