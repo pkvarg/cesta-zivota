@@ -45,7 +45,10 @@ const Section03 = ({ language }) => {
       <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
         <p>
           {content.s3Text1}
+          <span className='italic'>
           {content.s3Text1add}
+          </span>
+         
           <span className='text-[15px]'>{content.s3Text1addRef}</span>{' '}
           {/* Ak sa rozhodneš ignorovať Jeho obeť a šancu na záchranu, budeš
           odsúdený. */}{' '}
