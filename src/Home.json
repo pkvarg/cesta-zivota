@@ -24,7 +24,9 @@
 
     "s2Title": "Svedectvo môjho kamaráta Jimmyho",
 
-    "s3Text1": "Ak sa rozhodneš ignorovať Jeho obeť a šancu na záchranu, budeš odsúdený.",
+    "s3Text1": "Ak sa rozhodneš ignorovať Jeho obeť a šancu na záchranu, budeš odsúdený,",
+    "s3Text1add": " lebo Boh sa pyšným protiví.",
+    "s3Text1addRef": " Prvý Petrov 5:5",
     "s3Verse1": "Kto však neposlúcha Syna, neuvidí život, ale hnev Boží zostáva na ňom.",
     "s3Ref1": "Ján 3:36",
     "s3Verse2": "Kto neverí, už je odsúdený, pretože neuveril v meno jednorodeného Syna Božieho.",
@@ -35,6 +37,10 @@
     "s3Ref3": "Ján 3:36",
     "s3Verse4": "Kto verí v Neho, nebude súdený.",
     "s3Ref4": "Ján 3:18",
+    "s3Ref4addText": " Pretože",
+    "s3Ref4addVerse": " Boh dáva pokorným milosť.",
+    "s3Ref4addRef": " Prvý Petrov 5:5",
+
     "s3Verse5": "Ak ústami vyznávaš Pána Ježiša a v srdci veríš, že Ho Boh vzkriesil z mŕtvych, budeš spasený; lebo srdcom veríme na spravodlivosť a ústami vyznávame na spasenie.",
     "s3Ref5": "Rimanom 10:9-10",
 
@@ -121,7 +127,9 @@
 
     "s2Title": "Testimony of my friend Jimmy",
 
-    "s3Text1": "If you choose to ignore His sacrifice and chance for salvation, you will be condemned.",
+    "s3Text1": "If you choose to ignore His sacrifice and chance for salvation, you will be condemned,",
+    "s3Text1add": " for God is opposed to the proud.",
+    "s3Text1addRef": " First Peter 5:5",
     "s3Verse1": "Whoever rejects the Son will not see life. Instead, the wrath of God remains on him.",
     "s3Ref1": "John 3:36",
     "s3Verse2": "Whoever does not believe has already been condemned, because he has not believed in the name of God’s one and only Son.",
@@ -132,6 +140,9 @@
     "s3Ref3": "John 3:36",
     "s3Verse4": "Whoever believes in Him is not condemned.",
     "s3Ref4": "John 3:18",
+    "s3Ref4addText": " Because",
+    "s3Ref4addVerse": " God gives grace to the humble.",
+    "s3Ref4addRef": " First Peter 5:5",
     "s3Verse5": "If you confess with your mouth, “Jesus is Lord,” and believe in your heart that God raised Him from the dead, you will be saved. For with your heart you believe and are justified, and with your mouth you confess and are saved. ",
     "s3Ref5": "Romans 10:9-10",
 
@@ -219,7 +230,9 @@
 
     "s2Title": "Svědectví mého kamaráda Jimmyho",
 
-    "s3Text1": "Pokud se rozhodneš ignorovat Jeho oběť a šanci na záchranu, budeš odsouzen.",
+    "s3Text1": "Pokud se rozhodneš ignorovat Jeho oběť a šanci na záchranu, budeš odsouzen,",
+    "s3Text1add": " protože Bůh se pyšným protiví.",
+    "s3Text1addRef": " První Petrův 5:5",
     "s3Verse1": "Kdo však neposlouchá Syna, neuvidí život, ale hněv Boží zůstává na něm.",
     "s3Ref1": "Jan 3:36",
     "s3Verse2": "Kdo nevěří, už je odsouzen, protože neuvěřil ve jméno jednorozeného Syna Božího.",
@@ -230,6 +243,9 @@
     "s3Ref3": "Jan 3:36",
     "s3Verse4": "Kdo věří v Něho, nebude souzen.",
     "s3Ref4": "Jan 3:18",
+    "s3Ref4addText": " Protože",
+    "s3Ref4addVerse": " Bůh dává pokorným milost.",
+    "s3Ref4addRef": " První Petrův 5:5",
     "s3Verse5": "Jestliže ústy vyznáváš Pána Ježíše a v srdci věříš, že Ho Bůh vzkřísil z mrtvých, budeš spasen; neboť srdcem věříme ve spravedlnost a ústy vyznáváme ke spasení.",
     "s3Ref5": "Římanům 10:9-10",
 

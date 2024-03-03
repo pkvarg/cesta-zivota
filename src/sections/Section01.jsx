@@ -89,31 +89,6 @@ const Section01 = ({ language }) => {
           </span>{' '}
         </p>
       </div>
-      <div className='text-[20.5px] lg:text-[22.5px] text-justify mt-6'>
-        <p>
-          {content.heroText6}
-          {/* Boh ťa tak veľmi miluje, že Svojho Syna nechal obetovať za tvoje
-          hriechy, pretože */}{' '}
-          <span className='italic'>
-            {' '}
-            {content.heroVerse6}
-            {/* bez vyliatia krvi niet odpustenia. */}
-          </span>{' '}
-          <span className='text-[15px]'>
-            {content.heroRef6}
-            {/* Hebrejom 9:22 */}
-          </span>{' '}
-          <span className='italic'>
-            {content.heroVerse7}
-            {/* Lebo tak Boh miloval svet, že svojho jednorodeného Syna dal, aby
-            nezahynul, ale večný život mal každý, kto verí v Neho. */}
-          </span>{' '}
-          <span className='text-[15px]'>
-            {content.heroRef7}
-            {/* Ján 3:16 */}
-          </span>{' '}
-        </p>
-      </div>
     </div>
   )
 }

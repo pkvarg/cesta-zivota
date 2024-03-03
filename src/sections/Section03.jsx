@@ -16,9 +16,37 @@ const Section03 = ({ language }) => {
 
   return (
     <div className='section3 px-[5%]'>
-      <div className='text-[20px] lg:text-[22.5px] text-justify'>
+      <div className='text-[20.5px] lg:text-[22.5px] text-justify'>
+        <p>
+          {content.heroText6}
+          {/* Boh ťa tak veľmi miluje, že Svojho Syna nechal obetovať za tvoje
+          hriechy, pretože */}{' '}
+          <span className='italic'>
+            {' '}
+            {content.heroVerse6}
+            {/* bez vyliatia krvi niet odpustenia. */}
+          </span>{' '}
+          <span className='text-[15px]'>
+            {content.heroRef6}
+            {/* Hebrejom 9:22 */}
+          </span>{' '}
+          <span className='italic'>
+            {content.heroVerse7}
+            {/* Lebo tak Boh miloval svet, že svojho jednorodeného Syna dal, aby
+            nezahynul, ale večný život mal každý, kto verí v Neho. */}
+          </span>{' '}
+          <span className='text-[15px]'>
+            {content.heroRef7}
+            {/* Ján 3:16 */}
+          </span>{' '}
+        </p>
+      </div>
+
+      <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
         <p>
           {content.s3Text1}
+          {content.s3Text1add}
+          <span className='text-[15px]'>{content.s3Text1addRef}</span>{' '}
           {/* Ak sa rozhodneš ignorovať Jeho obeť a šancu na záchranu, budeš
           odsúdený. */}{' '}
           <span className='italic'>
@@ -56,6 +84,9 @@ const Section03 = ({ language }) => {
               {content.s3Ref4} {/* Ján 3:18 */}
             </span>
           </span>
+          <span> {content.s3Ref4addText}</span>
+          <span className='italic'>{content.s3Ref4addVerse}</span>
+          <span className='text-[15px]'>{content.s3Ref4addRef}</span>
           <span className='italic'>
             {' '}
             {content.s3Verse5}
@@ -67,35 +98,6 @@ const Section03 = ({ language }) => {
               {/* Rimanom 10:9-10 */}
             </span>
           </span>
-        </p>
-      </div>
-      <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
-        <p>
-          {content.s3Text3}
-          {/* Evanjelium neznamená “Uver, inak pôjdeš do pekla!”, ale ”Uver, lebo
-          tam smeruješ!” */}{' '}
-          <span className='italic'>
-            {content.s3Verse6}
-            {/* Povedz im: Akože žijem - znie výrok Hospodina, Pána - nemám záľubu v
-            smrti bezbožného, ale v tom, že sa bezbožný odvráti od svojho
-            spôsobu života a bude žiť. */}{' '}
-          </span>
-          <span className='text-[15px] italic'>
-            {content.s3Ref6}
-            {/* Ezechiel 33:11 */}
-          </span>
-        </p>
-      </div>
-      <div className='text-[20px] lg:text-[22.5px] text-justify mt-6'>
-        <p>
-          {content.s3Text4}
-          {/* Kajaj sa zo svojich hriechov a úprimne zo srdca ústami vyznaj:
-          “Nebeský Otče, ďakujem Ti, že si poslal Svojho Syna, aby niesol trest
-          za moje hriechy. Verím, že Ježiš zomrel na kríži a tretí deň vstal z
-          mŕtvych a žije. Vzdávam sa doterajšieho hriešneho spôsobu života.
-          Prosím, odpusť mi všetky hriechy skrze krv Ježiša Krista. Ďakujem Ti,
-          že si ma očistil. Ježišu, vyznávam Ťa ako môjho Pána a Spasiteľa.
-          Prosím, meň moje srdce a formuj môj charakter. Amen.”{' '} */}
         </p>
       </div>
     </div>

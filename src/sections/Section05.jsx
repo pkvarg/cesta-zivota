@@ -20,7 +20,36 @@ const Section05 = ({ language }) => {
 
   return (
     <div className='section5 text-[20px] lg:text-[22.5px] text-justify pt-[80px]'>
-      <div className='mx-[5%]'>
+      <div className='text-[20px] lg:text-[22.5px] text-justify mx-[5%]'>
+        <p>
+          {content.s3Text3}
+          {/* Evanjelium neznamená “Uver, inak pôjdeš do pekla!”, ale ”Uver, lebo
+          tam smeruješ!” */}{' '}
+          <span className='italic'>
+            {content.s3Verse6}
+            {/* Povedz im: Akože žijem - znie výrok Hospodina, Pána - nemám záľubu v
+            smrti bezbožného, ale v tom, že sa bezbožný odvráti od svojho
+            spôsobu života a bude žiť. */}{' '}
+          </span>
+          <span className='text-[15px] italic'>
+            {content.s3Ref6}
+            {/* Ezechiel 33:11 */}
+          </span>
+        </p>
+      </div>
+      <div className='text-[20px] lg:text-[22.5px] text-justify mt-6 mx-[5%]'>
+        <p>
+          {content.s3Text4}
+          {/* Kajaj sa zo svojich hriechov a úprimne zo srdca ústami vyznaj:
+          “Nebeský Otče, ďakujem Ti, že si poslal Svojho Syna, aby niesol trest
+          za moje hriechy. Verím, že Ježiš zomrel na kríži a tretí deň vstal z
+          mŕtvych a žije. Vzdávam sa doterajšieho hriešneho spôsobu života.
+          Prosím, odpusť mi všetky hriechy skrze krv Ježiša Krista. Ďakujem Ti,
+          že si ma očistil. Ježišu, vyznávam Ťa ako môjho Pána a Spasiteľa.
+          Prosím, meň moje srdce a formuj môj charakter. Amen.”{' '} */}
+        </p>
+      </div>
+      <div className='mx-[5%] mt-6'>
         <p>
           {content.s5Text1} {content.s5Anchor1} {content.s5Text2}{' '}
           {content.s5Anchor2}{' '}
@@ -58,7 +87,23 @@ const Section05 = ({ language }) => {
           {/* , aby si bol plný Jeho Slova a podľa Neho žil. A pravidelne navštevuj
           nejaké spoločenstvo, kde oslavujú Boha Otca, Ježiša a Svätého Ducha. */}
         </p>
-        <p className='text-justify pt-4'>
+
+        {/* <p className='pt-4 text-center'>
+          Viac v tejto audio knihe{' '}
+          <a
+            className='underline'
+            href='https://app.messengerx.com/sk-SK/listen/1DB0tFrLRez7blmTBmVSlZ/qo21vqS1ZFttSJR05ydGL_s3AudioAsset.mp3'
+            target='_blank'
+          >
+            Ži s perspektívou večnosti
+          </a>
+          , 5. kapitola.
+        </p> */}
+        {language === 'slovak' && <SliderTract />}
+        {language === 'english' && <SliderTractEn />}
+        {language === 'czech' && <SliderTractCz />}
+
+        <p className='text-justify pt-2'>
           {content.s5Text4}
           {/* Prečo nestačí len formálne uveriť a ďalej to neriešiť? Pretože viera
           bez osobného vzťahu s Ježišom a bez poslušnosti Božiemu Slovu je
@@ -115,22 +160,7 @@ const Section05 = ({ language }) => {
             {/* 5. kapitola. */}
           </span>
         </p>
-        {/* <p className='pt-4 text-center'>
-          Viac v tejto audio knihe{' '}
-          <a
-            className='underline'
-            href='https://app.messengerx.com/sk-SK/listen/1DB0tFrLRez7blmTBmVSlZ/qo21vqS1ZFttSJR05ydGL_s3AudioAsset.mp3'
-            target='_blank'
-          >
-            Ži s perspektívou večnosti
-          </a>
-          , 5. kapitola.
-        </p> */}
-        {language === 'slovak' && <SliderTract />}
-        {language === 'english' && <SliderTractEn />}
-        {language === 'czech' && <SliderTractCz />}
-
-        <p>
+        <p className='pt-4'>
           {' '}
           {content.s5Text7}{' '}
           {/* Sú všetky cirkevné tradície podložené Božím Slovom? Viac na{' '} */}
