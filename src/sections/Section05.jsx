@@ -110,7 +110,7 @@ const Section05 = ({ language }) => {
           pokrytectvom. Takú falošnú vieru Boh neprijme a odsúdi. Mŕtva viera ťa
           nespasí! Pánom ti je ten, koho poslúchaš. */}
         </p>
-        <p className='mt-2'>
+        <p className='mt-6'>
           {content.s5Text4a}
           <span className='italic'>
             {' '}
@@ -160,7 +160,7 @@ const Section05 = ({ language }) => {
             {/* 5. kapitola. */}
           </span>
         </p>
-        <p className='pt-4'>
+        <p className='mt-6'>
           {' '}
           {content.s5Text7}{' '}
           {/* Sú všetky cirkevné tradície podložené Božím Slovom? Viac na{' '} */}
